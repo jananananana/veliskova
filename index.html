@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+        <link rel="stylesheet" href="https://rawgit.com/rzajac/angularjs-slider/master/dist/rzslider.css">
+        <link rel="stylesheet" type="text/css" href="assets/stylesheets/styles.css">
+
+        <title>Veliskova</title>
+    </head>
+
+    <body class="b-body" ng-app="app">
+        <header class="b-main-nav">
+            <h1 class="b-heading--1"><span class="b-highlight">Jana Veliskova</span></h1>
+            <a class="b-button--plain b-main-nav__link b-main-nav__mobile-nav" href="#back">
+                <span class="b-visually-hidden">Menu</span>
+                <ng-include
+                    src="'assets/images/menu.svg'"
+                ></ng-include>
+            </a>
+        </header>
+        <success-prob></success-prob>
+        <a ui-sref="hello">Hello</a>
+        <a ui-sref="about">About</a>
+        <ui-view></ui-view>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.11/angular.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.min.js"></script>
+        <!-- Slider -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.14.3/ui-bootstrap-tpls.js"></script>
+        <script src="https://rawgit.com/rzajac/angularjs-slider/master/dist/rzslider.js"></script>
+
+        <!-- Inject Module -->
+        <script src="assets/javascripts/app.module.js" type="text/javascript"></script>
+        <!-- Inject Factory -->
+        <script src="assets/javascripts/factories/success.factory.js" type="text/javascript"></script>
+        <!-- Inject Components -->
+        <script src="assets/javascripts/success/successProb.component.js" type="text/javascript"></script>
+    </body>
+</html>
+

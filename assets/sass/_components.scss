@@ -1,0 +1,91 @@
+@import 'vars';
+
+
+// Teal Nav
+.b-main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    padding: 0 20px;
+    background-color: $header-background;
+    color: $font-color-inverse;
+    box-shadow: 0 1px 4px 0 $border-color;
+    @media (min-width: #{$medium-breakpoint}) {
+        justify-content: initial;
+    }
+    &__desktop {
+        display: none;
+        svg {
+            margin-right: 40px;
+        }
+        @media (min-width: #{$medium-breakpoint}) {
+            display: inline-block;
+        }
+    }
+    &__mobile-nav {
+        display: inline-block;
+        @media (min-width: #{$medium-breakpoint}) {
+            display: none;
+        }
+    }
+    &__link {
+        svg {
+            height: 20px;
+            width: 20px;
+        }
+        .b-svg-path {
+            fill: $font-color-inverse;
+        }
+    }
+}
+
+// Modal
+.b-modal {
+    margin: 30px auto;
+    max-width: 700px;
+    background-color: $modal-background;
+    box-shadow: 0 1px 3px 0 $border-color;
+    &__content {
+        padding: 20px 15px 15px;
+    }
+    &__selection-buttons {
+        text-align: right;
+        background-color: $modal-footer-background;
+    }
+    &__heading {
+        margin-bottom: 33px;
+    }
+    &__button {
+        margin-left: 10px;
+    }
+}
+
+// Text Highlight
+.b-highlight {
+    position: relative;
+    z-index: 1;
+    box-shadow: inset 0 -21px 0 0 $highlight-color, 60px 14px 0px -14px $highlight-color;
+}
+
+
+// Text box with icon
+.b-icon-text {
+    margin-top: 35px;
+    &__icon {
+        display: inline-block;
+        margin-right: 6px;
+        vertical-align: top;
+        width: 20px;
+        height: 20px;
+        .b-svg-path {
+            fill: $icon-color;
+        }
+    }
+    &__text {
+        display: inline-block;
+        vertical-align: top;
+        width: calc(100% - 50px);
+        line-height: 1.5;
+    }
+}

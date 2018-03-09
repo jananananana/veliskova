@@ -1,0 +1,21 @@
+// Resets
+@import 'reset';
+
+// Utilities
+@import 'utilities';
+
+// Element Styles
+@import 'elements';
+
+// Components
+@import 'components';
+
+// Views
+
+.b-body {
+    @include font-smoothing;
+    background-color: $background-color;
+    color: $font-color;
+    font-family: $font;
+    font-size: $base-font-size;
+}

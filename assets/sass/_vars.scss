@@ -1,0 +1,104 @@
+//==========================================================================
+// Colors
+//==========================================================================
+
+// Primary
+$cyan:                          #3FB8AF;
+$greenish-cyan:                 #7FC7AF;
+$yellowish-beige:               #DAD8A7;
+$grayish-pink:                  #FF9E9D;
+$bright-magenta:                #FF3D7F;
+
+$light-red:                     #ff8a65;
+$light-red-alt:                 #ff7043;
+$very-dark-grayish-cyan:        #606564;
+$very-dark-cyan:                #153d39;
+$light-grayish-cyan:            #e4f2f3;
+$slightly-desaturated-cyan:     #76bcc2;
+$dark-moderate-cyan:            #31766f; 
+$slighty-desaturated-green:     #a4b880;
+$slighty-desaturated-violet:    #9480b8;
+$moderate-orange:               #d56e44;
+$moderate-yellow:               #d5b744;
+$very-soft-yellow:              #e5de8a;
+$dark-cyan-alpha:               rgba(21, 61, 57, 0.3);
+
+
+//==========================================================================
+// Grays
+//==========================================================================
+
+$white:                         #FFFFFF;
+$gray:                          #BBBBBB;
+$light-gray:                    #f4f4f4;
+$very-light-gray:               #e4e4e4;
+$very-dark-gray:                #333333;
+$black-alpha:                   rgba(0, 0, 0, 0.3);
+$black:                         #000000;
+
+// ==========================================================================
+// Functional Colors
+// ==========================================================================
+
+// Fonts
+$font-color:                    $very-dark-grayish-cyan;
+$font-color-inverse:            $white;
+$heading-font-color:            $very-dark-cyan;
+
+// Backgrounds
+$background-color:              $white;
+$header-background:             $very-dark-gray;
+$modal-background:              $white;
+$modal-footer-background:       $light-gray;
+
+// Highlight
+$highlight-color:               $bright-magenta;
+
+// Borders and Dividers
+$divider-color:                 $gray;
+$border-color:                  $black-alpha;
+
+// Buttons
+$main-button-color:             $light-red;
+$main-button-font-color:        $white;
+$main-button-color-border:      $black-alpha;
+$main-button-disabled:          $very-light-gray;
+$main-button-disabled-font:     $dark-cyan-alpha;
+
+$inverse-button-font-color:     $light-red-alt;
+$inverse-button-background:     $white;
+
+$slider-color:                  $light-red-alt;
+$slider-color-alt:              $very-dark-grayish-cyan;
+
+$plain-button-hover:            $dark-moderate-cyan;
+$plain-button-active:           $light-grayish-cyan;
+$plain-button-disabled:         $gray;
+
+// Inputs
+$input-background-focus:        $light-gray;
+
+// Icons
+$icon-color:                    $dark-moderate-cyan;
+
+// Grade colors
+$neutral-grade:                 $slighty-desaturated-violet;
+$a-grade:                       $dark-moderate-cyan;
+$b-grade:                       $slighty-desaturated-green;
+$c-grade:                       $moderate-yellow;
+$d-grade:                       $moderate-orange;
+
+// ==========================================================================
+// Breakpoint widths
+// ==========================================================================
+
+$medium-breakpoint:             760px;
+
+// ==========================================================================
+// Fonts
+// ==========================================================================
+
+$base-font-size:                14px;
+$font:                          'Roboto Slab', serif;
+$heading-font:                   Roboto;
+$icon-font:                     'Material Icons';

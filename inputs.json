@@ -1,0 +1,33 @@
+{
+    "info": {
+        "success_probabilities": [{
+            "grade": "A",
+            "message": "We are very confident you will qualify for this loan."
+        },{
+            "grade": "B",
+            "message": "You will likely qualify for this loan with some restrictions.",
+            "reasons": [
+                "You may have to pay private mortgage insurance (PMI).",
+                "Rates may be higher."
+            ]
+        },{
+            "grade": "C",
+            "message": "You will qualify for this loan with many restrictions.",
+            "reasons": [
+                "You may have to pay private mortgage insurance (PMI).",
+                "Rates may be higher.",
+                "You may not be eligible for a fixed-rate loan."
+            ]
+        },{
+            "grade": "D",
+            "message": "You are unlikely to qualify for this loan.",
+            "reasons": [
+                "You will have too much debt relative to your income.",
+                "You may not be eligible for a fixed-rate loan."
+            ]
+        },{
+            "grade": "?",
+            "message": "Please enter valid values"
+        }]
+    }
+}

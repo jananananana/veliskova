@@ -1,0 +1,1962 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"do",
+				"downPaymentVal"
+			],
+			[
+				"f",
+				"font-color"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"border-top",
+				"border-top-color"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"font",
+				"font-color-inverse"
+			],
+			[
+				"lo",
+				"loadSlider"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"light",
+				"light-red"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"listy",
+				"list-style"
+			],
+			[
+				"grade",
+				"gradeObj"
+			],
+			[
+				"get",
+				"getMessage"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"bla",
+				"black-alpha"
+			],
+			[
+				"fon",
+				"font-color-inverse"
+			],
+			[
+				"b-",
+				"b-drop-cap--B"
+			],
+			[
+				"pro",
+				"probabilityGrade"
+			],
+			[
+				"sli",
+				"slighty-desaturated-green"
+			],
+			[
+				"su",
+				"successProbability"
+			],
+			[
+				"purch",
+				"purchase"
+			],
+			[
+				"purcha",
+				"purchasePrice"
+			],
+			[
+				"bl",
+				"black-alpha"
+			],
+			[
+				"success",
+				"successProb"
+			],
+			[
+				"status",
+				"statusObj"
+			],
+			[
+				"stat",
+				"statusObj"
+			],
+			[
+				"in",
+				"index"
+			],
+			[
+				"conne",
+				"connectionStatus"
+			],
+			[
+				"un",
+				"undefined"
+			],
+			[
+				"sco",
+				"scootPosition"
+			],
+			[
+				"sc",
+				"scope"
+			],
+			[
+				"pop",
+				"popoverScootPosition"
+			],
+			[
+				"column",
+				"columns"
+			],
+			[
+				"figu",
+				"figure"
+			],
+			[
+				"Dash",
+				"dashboardSelect"
+			],
+			[
+				"das",
+				"dashboardItem"
+			],
+			[
+				"debug",
+				"debugModalScope"
+			],
+			[
+				"_debug",
+				"_debugQueries"
+			],
+			[
+				"dash",
+				"dashboardItem"
+			],
+			[
+				"rj-dash",
+				"rj-dashboard-item__title"
+			],
+			[
+				"width",
+				"width-of-actions"
+			],
+			[
+				"rj-buttp",
+				"rj-button--plain-subtle"
+			],
+			[
+				"rj-button",
+				"rj-button--plain-subtle"
+			],
+			[
+				"wi",
+				"width-of-actions"
+			],
+			[
+				"btn-p",
+				"rj-button--plain"
+			],
+			[
+				"rj-button--",
+				"rj-button--plain"
+			],
+			[
+				"rj-heading",
+				"rj-heading-4"
+			],
+			[
+				"repo",
+				"reportQueryType"
+			],
+			[
+				"figure",
+				"figureId"
+			],
+			[
+				"report",
+				"reportQueryType"
+			],
+			[
+				"repor",
+				"reportQueryType"
+			],
+			[
+				"Tour",
+				"tourService"
+			],
+			[
+				"defe",
+				"deferred"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"tour",
+				"tourService"
+			],
+			[
+				"ac",
+				"activeMetricIndex"
+			],
+			[
+				"hide",
+				"hideMetricOptions"
+			],
+			[
+				"vrbTour",
+				"vrbTourComplete"
+			],
+			[
+				"log",
+				"log\tlog"
+			],
+			[
+				"getComple",
+				"getCompletedVrbTour"
+			],
+			[
+				"tourS",
+				"tourService"
+			],
+			[
+				"fal",
+				"false"
+			],
+			[
+				"false",
+				"failingConnectionsNumber"
+			],
+			[
+				"D",
+				"DASH_TOUR"
+			],
+			[
+				"VRB",
+				"VRB_TOUR"
+			],
+			[
+				"rem",
+				"removeBackgroundOverlay"
+			],
+			[
+				"add",
+				"addBackgroundOverlay"
+			],
+			[
+				"hid",
+				"hideReportBuilderTour"
+			],
+			[
+				"repr",
+				"reportUrl"
+			],
+			[
+				"lat",
+				"lastTimeTourWasBroughtBack"
+			],
+			[
+				"la",
+				"lastTimeTourWasDismissed"
+			],
+			[
+				"complet",
+				"completedVrbTour"
+			],
+			[
+				"dismiss",
+				"dismissedTour"
+			],
+			[
+				"isD",
+				"isGaConnected"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"comple",
+				"completedDashTour"
+			],
+			[
+				"vrb",
+				"vrbTourComplete"
+			],
+			[
+				"getCompl",
+				"getCompletedVrbTour"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"step",
+				"stepOrder"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"dashb",
+				"dashboardItems"
+			],
+			[
+				"for",
+				"forin\tArray Comprehension"
+			],
+			[
+				"de",
+				"getDefaultDashboard"
+			],
+			[
+				"temp",
+				"templateCache"
+			],
+			[
+				"app",
+				"appRoute"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"no-",
+				"no-repeat"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"rj-action-bo",
+				"rj-action-box--tour"
+			],
+			[
+				"st",
+				"Start"
+			],
+			[
+				"start",
+				"startTour"
+			],
+			[
+				"over",
+				"overflow-y"
+			],
+			[
+				"act",
+				"action-body"
+			],
+			[
+				"rj-",
+				"rj-action-box"
+			],
+			[
+				"or",
+				"organized"
+			],
+			[
+				"icon",
+				"icon-fill"
+			],
+			[
+				"border-",
+				"border-bottom"
+			],
+			[
+				"se",
+				"selection-info"
+			],
+			[
+				"rj-sele",
+				"rj-selection-list--little"
+			],
+			[
+				"rj-see",
+				"rj-selection-list--little"
+			],
+			[
+				"selection-i",
+				"selection-icon"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"las",
+				"lastTimeTourWasBroughtBack"
+			],
+			[
+				"sho",
+				"showTourOptions"
+			],
+			[
+				"dis",
+				"dismissedTour"
+			],
+			[
+				"dele",
+				"deletedDismissedTour"
+			],
+			[
+				"user",
+				"userEventService"
+			],
+			[
+				"event",
+				"eventType"
+			],
+			[
+				"open",
+				"openTour"
+			],
+			[
+				"show",
+				"showGettingStarted"
+			],
+			[
+				"moderate",
+				"moderate-blue"
+			],
+			[
+				"backgrou-",
+				"background-color"
+			],
+			[
+				"border-di",
+				"border-divider-color--alt2"
+			],
+			[
+				"js",
+				"js-restriction-set-input"
+			],
+			[
+				"All",
+				"All-Time"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"is",
+				"isAdminUser"
+			],
+			[
+				"nu",
+				"numberOfFailingConnections"
+			],
+			[
+				"connec",
+				"connectionResponses"
+			],
+			[
+				"conn",
+				"connectionResponses"
+			],
+			[
+				"date",
+				"dateChangeUsed"
+			],
+			[
+				"ev",
+				"eventLogger"
+			],
+			[
+				"drp",
+				"dropdown"
+			],
+			[
+				"getC",
+				"getCurrentDashboard"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "assets/sass/_third.party.overwrites.scss",
+			"settings":
+			{
+				"buffer_size": 2592,
+				"line_ending": "Unix",
+				"name": "_third.party.overwrites.scss"
+			}
+		},
+		{
+			"file": "assets/javascripts/success/successProb.component.js",
+			"settings":
+			{
+				"buffer_size": 5173,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 4292,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/sass/_elements.scss",
+			"settings":
+			{
+				"buffer_size": 4132,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/sass/_utilities.scss",
+			"settings":
+			{
+				"buffer_size": 176,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/sass/_components.scss",
+			"settings":
+			{
+				"buffer_size": 4845,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/sass/_vars.scss",
+			"settings":
+			{
+				"buffer_size": 3355,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/javascripts/success/successProb.html",
+			"settings":
+			{
+				"buffer_size": 5919,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "successProb.html"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2121,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "Package Control: instal",
+		"selected_items":
+		[
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:  insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/jveliskova/Desktop/BETTER",
+		"/Users/jveliskova/Desktop/BETTER/assets",
+		"/Users/jveliskova/Desktop/BETTER/assets/fonts",
+		"/Users/jveliskova/Desktop/BETTER/assets/javascripts",
+		"/Users/jveliskova/Desktop/BETTER/assets/javascripts/factories",
+		"/Users/jveliskova/Desktop/BETTER/assets/javascripts/success",
+		"/Users/jveliskova/Desktop/BETTER/assets/sass",
+		"/Users/jveliskova/Desktop/BETTER/assets/stylesheets"
+	],
+	"file_history":
+	[
+		"/Users/jveliskova/Desktop/BETTER/.gitignore",
+		"/Users/jveliskova/Desktop/BETTER/assets/sass/_elements.scss",
+		"/Users/jveliskova/Desktop/BETTER/README.md",
+		"/Users/jveliskova/Desktop/BETTER/assets/images/info-circle.svg",
+		"/Users/jveliskova/Desktop/BETTER/index.html",
+		"/Users/jveliskova/Desktop/BETTER/assets/sass/styles.scss",
+		"/Users/jveliskova/Desktop/BETTER/assets/sass/_mixins.scss",
+		"/Users/jveliskova/Desktop/BETTER/assets/images/drag.svg",
+		"/Users/jveliskova/Desktop/BETTER/assets/images/down-chevron.svg",
+		"/Users/jveliskova/Desktop/BETTER/assets/javascripts/success/successProb.component.js",
+		"/Users/jveliskova/Desktop/BETTER/assets/images/left-arrow.svg",
+		"/Users/jveliskova/Desktop/BETTER/assets/sass/_components.scss",
+		"/Users/jveliskova/Desktop/BETTER/assets/javascripts/app.module.js",
+		"/Users/jveliskova/Desktop/BETTER/assets/javascripts/factories/success.factory.js",
+		"/Users/jveliskova/Desktop/BETTER/inputs.json",
+		"/Users/jveliskova/Desktop/BETTER/assets/sass/_utilities.scss",
+		"/Users/jveliskova/Desktop/BETTER/assets/sass/_vars.scss",
+		"/Users/jveliskova/Desktop/BETTER/assets/javascripts/deleteme.js",
+		"/Users/jveliskova/Desktop/BETTER/assets/javascripts/global.js",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/directives/sqlSidebarDirective.coffee",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/directives/connectionListDirective.coffee",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/partials/directive.connectionList.html",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/test/js/angular/unit/services/connectionStatusTranslatorServiceSpec.coffee",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/services/connectionStatusTranslator.coffee",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/release/services/connectionStatusTranslator.js",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/partials/connectionEditors/db.html",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/directives/dbConnectionEditorDirective.coffee",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/directives/billingDirective.coffee",
+		"/Users/jveliskova/core/RJMetrics/Shared/src/connection/ConnectionMeta.php",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/api/ConnectionMeta.coffee",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/src-styles/components/_popovers.scss",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/services/cloudbiAppService.coffee",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/partials/dash.html",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/src/dashboard/views/default/client/dashapp/index.tpl",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/controllers/dashWrapperCtrl.coffee",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/directives/popoverScootDirective.coffee",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/directives/reRouteDirective.coffee",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/partials/popover.warnings.html",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/bower_components/datatables-plugins/pagination/index.html",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/directives/popoverClickOutDirective.coffee",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/bower_components/angular-strap/src/directives/popover.js",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/directives/renderScalarDirective.coffee",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/partials/settings/directive.allConnections.html",
+		"/Users/jveliskova/core/RJMetrics/node_modules/karma/node_modules/log4js/.bob/complexity/plato/assets/scripts/vendor/bootstrap-popover.js",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/services/dateService.coffee",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/services/figureService.coffee",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/controllers/debugQueriesCtrl.coffee",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/test/js/angular/unit/services/dateServiceSpec.coffee",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/services/chartFormatterService.coffee",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/directives/renderHighchartDirective.coffee",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/api/Figures.coffee",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/directives/figureDirective.coffee",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/partials/modal.debugDashboardItem.html",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/src-styles/components/_modals.scss",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/src-styles/components/_action-box.scss",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/controllers/dataWarehouseCtrl.coffee",
+		"/Users/jveliskova/core/RJMetrics/Admin/public/admin/v3b/sass/implementationstatus.scss",
+		"/Users/jveliskova/core/RJMetrics/gulpfile.js",
+		"/Users/jveliskova/core/RJMetrics/Admin/public/admin/v3b/sass/onboarding.scss",
+		"/Users/jveliskova/core/RJMetrics/Admin/public/admin/v3b/sass/redshiftcluster.scss",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/src-styles/utilities/_variables.scss",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/src-styles/components/_icons.scss",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/src-styles/components/_navbar.scss",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/src-styles/components/_utilities.scss",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/src-styles/components/_utilities-bar.scss",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/partials/directive.dashboardStoreFilter.html",
+		"/Users/jveliskova/core/RJMetrics/Admin/src/admin/views/default/admins/index.tpl",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/styleguide/dashboard/elements/icons/icons.html",
+		"/Users/jveliskova/core/RJMetrics/package.json",
+		"/Users/jveliskova/core/RJMetrics/npm-shrinkwrap.json",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/controllers/dashNavMenuCtrl.coffee",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/partials/modal.dashClone.html",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/partials/modal.chartSaveAs.html",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/styleguide/dashboard/components/rjActionBox.html",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/common/googleAnalyticsMetricsAndDimensions/directive.googleAnalyticsMetricsAndDimensions.html",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/partials/directive.cloudBiGoogleProfilePicker.html",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/directives/userAvatarDirective.coffee",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/src-styles/components/_cbi.wells.scss",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/styleguide/dashboard/components/rjWell.html",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/src-styles/components/_wells.scss",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/services/overdueBillingModalService.coffee",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/test/js/angular/unit/services/overdueBillingModalServiceSpec.coffee",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/services/tourService.coffee",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/src-styles/_dashboard.layout.beta.scss",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/src-styles/common.beta.scss",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/controllers/tourWelcomeCtrl.coffee",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/src-styles/components/_dashboard-item.scss",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/partials/modal.renameDash.html",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/partials/directive.replicationMethod.html",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/partials/modal.requestIntegration.html",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/partials/modal.dependencies.html",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/partials/modal.tourWelcome.html",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/partials/popover.debug.html",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/directives/chartDirective.coffee",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/bower_components/bootstrap-select/sass/variables.scss",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/src-styles/components/_dropdowns.scss",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/src-styles/elements/_type.scss",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/partials/settings/emailsummary.edit.html",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/src-styles/_reportBuilder.scss",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/partials/directive.reportBuilderSelection.html",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/css/common.beta.css",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/partials/directive.bccSearchList.html",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/partials/settings/directive.userProfile.html",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/api/Charts.coffee",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/src-styles/mixins/_bem-mixin.scss",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/src-styles/views/_personal-info.view.scss",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/src-styles/mixins/cbi.dropdowns.scss",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/styleguide/dashboard/layouts/rjTitleBar.html",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/release/controllers/debugQueriesCtrl.js",
+		"/Users/jveliskova/core/RJMetrics/node_modules/karma/static/debug.html",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/styleguide/dashboard/code/styling.html",
+		"/Users/jveliskova/core/RJMetrics/Shared/src/rjql/ReportQueryType.php",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/partials/directive.updateInfo.html",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/partials/directive.metricDetails.html",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/src-styles/views/styleguide.view.scss",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/styleguide/dashboard/code/coffeescript.html",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/src-styles/components/_code.scss",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/release/services/chartFormatterService.js",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/services/reportBuilderService.coffee",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/controllers/dashboardItemCtrl.coffee",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/rjmNg.figureConstants.coffee",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/services/dashboardItemLoadQueueService.coffee",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/test/js/angular/unit/controllers/dashboardItemCtrlSpec.coffee",
+		"/Users/jveliskova/Desktop/catgif correct/index.html",
+		"/Users/jveliskova/Desktop/catgif correct/assets/javascripts/global.js",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/test/js/angular/unit/services/tourServiceSpec.coffee",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/test/js/angular/unit/services/chartsServiceSpec.coffee",
+		"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/services/triStateCheckboxService.coffee"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/directives",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular/src/directives, *.cofee",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js, *.coffee",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/src-styles, *.scss",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.html",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.coffee",
+			"/Users/jveliskova/core/RJMetrics/Dashboard,*.html",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2, *.coffee",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js, *.coffee",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.coffee",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js, *.coffee",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js",
+			"/Users/jveliskova/core/RJMetrics/Dashboard",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js, *.coffee",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2, *.html",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2. *.html",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2, *.scss",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/src-styles, *.scss",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/src-styles",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2, *.scss",
+			"/Users/jveliskova/core/RJMetrics/Dashboard",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2,*.scss",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.html",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2, *.scss",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.scss",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public, *.html",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.scss",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.html",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.html OR *.tpl",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.html *.tpl",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.scss",
+			"/Users/jveliskova/core/RJMetrics/Dashboard",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.html",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.scss",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public, *.scss",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2, *.coffee",
+			"/Users/jveliskova/core/RJMetrics/Dashboard",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.html",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2, *.tpl",
+			"/Users/jveliskova/core/RJMetrics/Dashboard",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/src-styles, *.scss",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2, *.html",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.coffee",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.scss",
+			"/Users/jveliskova/core/RJMetrics/Dashboard",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.scss",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.coffee",
+			"/Users/jveliskova/core/RJMetrics/Dashboard",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.coffee",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.coffe",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.coffee",
+			"/Users/jveliskova/core/RJMetrics, *.scss",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.coffee",
+			"/Users/jveliskova/core/RJMetrics, *.coffee",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.coffee",
+			"/Users/jveliskova/core/RJMetrics/Dashboard",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.coffee",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.scss",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.tpl",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public, *.coffee",
+			"/Users/jveliskova/core/RJMetrics, *.html",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.scss",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2, *.html",
+			"/Users/jveliskova/core/RJMetrics/Dashboard",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.html",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2, *.coffee",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.html",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.scss",
+			"/Users/jveliskova/core/RJMetrics/Dashboard",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2, *.scss",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.js",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.tpl",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.scss",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2, *.scss",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2, *.html",
+			"/Users/jveliskova/core/RJMetrics/Dashboard",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.scss",
+			"/Users/jveliskova/core/RJMetrics/Dashboard",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.tpl",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.html",
+			"/Users/jveliskova/core/RJMetrics",
+			"/Users/jveliskova/core/RJMetrics/Dashboard",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.tpl",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2, *.scss",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2, *.html",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2, *.scss",
+			"/Users/jveliskova/core/RJMetrics/Dashboard",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.scss",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/src-styles, *.scss",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.tpl",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2, *.scss",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.html",
+			"/Users/jveliskova/core/RJMetrics",
+			"/Users/jveliskova/core/RJMetrics/Dashboard",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.scss",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.html",
+			"/Users/jveliskova/core/RJMetrics/Dashboard",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.tpl",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.coffee",
+			"/Users/jveliskova/core/RJMetrics/Dashboard",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2, *.coffee",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js, *.coffee",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.coffee",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2, *.coffee",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.html",
+			"/Users/jveliskova/core/RJMetrics/Admin, *.html",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public, *.html",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2, *.scss",
+			"/Users/jveliskova/core/RJMetrics/Dashboard",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.coffee",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.tpl",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2, *.scss",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.scss",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public, *.coffee",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public, *.html",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public, *.tpl",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2, *.tpl",
+			"/Users/jveliskova/core/RJMetrics/Dashboard/public/v2/js/angular",
+			"/Users/jveliskova/core/RJMetrics",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.coffee",
+			"/Users/jveliskova/core/RJMetrics/Dashboard, *.html"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"heading",
+			"$very-dark-grayish-cyan",
+			"$light-red-alt",
+			"$dark-moderate-cyan",
+			"\">\n",
+			"vm",
+			"toggleStatusDetails",
+			"showConnectionStatusDetails",
+			"getFailingConnections",
+			"failingConnectionsNumber",
+			".message",
+			"$q.all",
+			"translateDBConnectorStatus",
+			"getStatus",
+			"ConnectionMeta",
+			"ConnectionMetaInstance",
+			"prettyStatus",
+			"\"\n",
+			"getConnectionsWithErrors",
+			"connectionStatus",
+			"FEATURE_TIER",
+			"ng-if",
+			"essentials",
+			"popover",
+			"overflow",
+			"data-position",
+			"$event.target",
+			"Popover",
+			"warningsPopover",
+			"tour-remover",
+			"$eval",
+			"warningsPopover",
+			"warning",
+			"dateService.",
+			"timeInterval = @getTimeInterval(figure)",
+			"_debugQueries",
+			"periodd",
+			"_getColumnNames",
+			"getColumnNames",
+			"getSeriesDataWithTime",
+			"xAxis",
+			"getTimeInterval",
+			"_getCategoriesFromFigure",
+			"err",
+			"isDev",
+			"plumber",
+			"sassErrorHandler",
+			"inject",
+			"routes",
+			"src",
+			"dash-sass",
+			"dash-css",
+			"dash-styles",
+			"grayDark",
+			"font",
+			"$very-light-gray-alt2",
+			"chart",
+			"wide",
+			"tour",
+			"error",
+			"bug",
+			"The SQL Report Builder gives ",
+			"line-height: 40px;",
+			"h2 > a.btn",
+			"titleText",
+			"light-grayish-red",
+			"figure",
+			"visual",
+			"figure",
+			"chartTitl",
+			"readonly",
+			"dropdown-text",
+			"rj-button--plain",
+			"rj-text-box--light",
+			"account-se",
+			"this particular",
+			"--modifier",
+			"references",
+			"figureService",
+			"rj-selection-list--little__heading",
+			"$scope.dashboardItems",
+			"$scope.dashboardItems\n",
+			"$scope.dashboardItems",
+			"dashboardItems",
+			"path",
+			"ChartFormatterService",
+			"format",
+			"scope.chart",
+			"modifySeries",
+			"getHighchartStandardOptions",
+			"_renderRjqlFigure",
+			"_modifySeries",
+			"_render",
+			"renderHighchart",
+			"getHighchartStandardOptions",
+			"genBasicOptions",
+			"getLabelValues",
+			"getColumnIndexes",
+			"getLabelValues",
+			"_getColumnIndexes",
+			"@_getColumnIndexes",
+			"figure",
+			"tourWelcomeModal",
+			"dashboardUrl",
+			"\"\n",
+			"tourService",
+			"callWithColumn",
+			"dashboardUrl",
+			"url",
+			"reportUrl",
+			"tourUrl",
+			"tourCompleteStatus",
+			"tourCompleteStatus.dashboard",
+			"_handleUnappliedFilters",
+			"tourOver",
+			"dashboardTourComplete",
+			"vrbTourComplete",
+			"scope.vrb",
+			"$scope.vrbTourComplete",
+			"completedVrbTour",
+			"tourOver",
+			"startTour",
+			"tourWelcomeModal",
+			"vrbTourComplete",
+			"inputConnections",
+			"getZuoraParams",
+			"GAUrl",
+			"gaConnected"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<dd class=\"rj-styleguide__playground\">\n      <button class=\"js-view-source\">View Markup</button>\n      <ul class=\"rj-selection-list\">\n        <li class=\"rj-selection-list__selection-item\">\n          <div class=\"rj-icon rj-selection-list__selection-icon\">\n            <object data=\"../v2/images/report_builder/icon_visual-editor.svg\" type=\"image/svg+xml\"></object>\n          </div>\n          <div class=\"rj-selection-list__selection-info\">\n            <h3 class=\"rj-heading--5\">Visual Report Builder</h3>\n            <div class=\"rj-selection-list__selection-info-area\">\n              <p class=\"rj-selection-list__text\">The Visual Report Builder is the easiest way to visualize your data. Create charts, add metrics, and segment your data all with a few clicks. <a class=\"rj-button--plain\" href=\"https://rjmetrics.zendesk.com/hc/en-us/articles/204675125-Using-the-Report-Builder\" target=\"_blank\">Learn More.</a></p>\n              <a class=\"rj-selection-list__selection-button rj-button\">\n                Create Report\n              </a>\n            </div>\n          </div>\n        </li>\n        <li class=\"rj-selection-list__selection-item\">\n          <div class=\"rj-icon-svg rj-selection-list__selection-icon\">\n            <object data=\"../v2/images/report_builder/icon_cohort.svg\" type=\"image/svg+xml\"></object>\n          </div>\n          <div class=\"rj-selection-list__selection-info\">\n            <h4 class=\"rj-heading--5\">Cohort Report Builder</h4>\n            <div class=\"rj-selection-list__selection-info-area\">\n              <p class=\"rj-selection-list__text\">The easiest way to analyze and identify behavioral trends of similar user groups over the course of their life cycles. <a class=\"rj-button--plain\" href=\"https://rjmetrics.zendesk.com/hc/en-us/articles/204675085-Create-cohort-analysis\" target=\"_blank\">Learn More.</a></p>\n              <a class=\"rj-selection-list__selection-button rj-button\">\n                Create Report\n              </a>\n            </div>\n          </div>\n        </li>\n      </ul>\n    </dd>\n</dl>",
+			"selection-item"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "assets/sass/_third.party.overwrites.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2592,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								174,
+								174
+							]
+						],
+						"settings":
+						{
+							"auto_name": "_third.party.overwrites.scss",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/javascripts/success/successProb.component.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5173,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								720,
+								720
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 187.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4292,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1920,
+								1920
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 57.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "assets/sass/_elements.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4132,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2,
+								3
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "assets/sass/_utilities.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 176,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "assets/sass/_components.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4845,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								801,
+								801
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 373.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "assets/sass/_vars.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3355,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								328,
+								328
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 718.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "assets/javascripts/success/successProb.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5919,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4742,
+								4763
+							]
+						],
+						"settings":
+						{
+							"auto_name": "successProb.html",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1085.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2121,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1098,
+								1098
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 190.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.518559937836,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "better.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"",
+				"assets/javascripts/success/successProb.html"
+			],
+			[
+				"_com",
+				"assets/sass/_components.scss"
+			],
+			[
+				"compo",
+				"assets/javascripts/success/successProb.component.js"
+			],
+			[
+				"_vars",
+				"assets/sass/_vars.scss"
+			],
+			[
+				"connectioneditors/db.html",
+				"Dashboard/public/v2/js/angular/src/partials/connectionEditors/db.html"
+			],
+			[
+				"sqlsidebar",
+				"Dashboard/public/v2/js/angular/src/directives/sqlSidebarDirective.coffee"
+			],
+			[
+				"dbconnectioneditordirective.coffee",
+				"Dashboard/public/v2/js/angular/src/directives/dbConnectionEditorDirective.coffee"
+			],
+			[
+				"directive.connectionstat",
+				"Dashboard/public/v2/js/angular/src/partials/directive.connectionStatus.html"
+			],
+			[
+				"connectionstatusd",
+				"Dashboard/public/v2/js/angular/src/directives/connectionStatusDirective.coffee"
+			],
+			[
+				"connectionstatustran",
+				"Dashboard/test/js/angular/unit/services/connectionStatusTranslatorServiceSpec.coffee"
+			],
+			[
+				"connectionlistdir",
+				"Dashboard/public/v2/js/angular/src/directives/connectionListDirective.coffee"
+			],
+			[
+				"connectionlist",
+				"Dashboard/public/v2/js/angular/src/directives/connectionListDirective.coffee"
+			],
+			[
+				"connectionstatustra",
+				"Dashboard/public/v2/js/angular/release/services/connectionStatusTranslator.js"
+			],
+			[
+				"connectionstatustranslator.coffee",
+				"Dashboard/test/js/angular/unit/services/connectionStatusTranslatorServiceSpec.coffee"
+			],
+			[
+				"connectionlistd",
+				"Dashboard/public/v2/js/angular/src/directives/connectionListDirective.coffee"
+			],
+			[
+				"/connectionstatustranslator.coffee",
+				"Dashboard/public/v2/js/angular/src/services/connectionStatusTranslator.coffee"
+			],
+			[
+				"connectionmeta.co",
+				"Dashboard/public/v2/js/angular/src/api/ConnectionMeta.coffee"
+			],
+			[
+				"connectionmeta",
+				"Shared/src/connection/ConnectionMeta.php"
+			],
+			[
+				"billingdi",
+				"Dashboard/public/v2/js/angular/src/directives/billingDirective.coffee"
+			],
+			[
+				"connectionstatustranslator",
+				"Dashboard/public/v2/js/angular/src/services/connectionStatusTranslator.coffee"
+			],
+			[
+				"connectionlistdirec",
+				"Dashboard/public/v2/js/angular/src/directives/connectionListDirective.coffee"
+			],
+			[
+				"directive.connectionl",
+				"Dashboard/public/v2/js/angular/src/partials/directive.connectionList.html"
+			],
+			[
+				"dbconnectionedit",
+				"Dashboard/public/v2/js/angular/src/directives/dbConnectionEditorDirective.coffee"
+			],
+			[
+				"dashboard/public/v2/js/angular/src/partials/connectioneditors/db.html",
+				"Dashboard/public/v2/js/angular/src/partials/connectionEditors/db.html"
+			],
+			[
+				"reroutedirective.coffee",
+				"Dashboard/public/v2/js/angular/src/directives/reRouteDirective.coffee"
+			],
+			[
+				"appservice.coffee",
+				"Dashboard/public/v2/js/angular/src/services/cloudbiAppService.coffee"
+			],
+			[
+				"/dashapp/in",
+				"Dashboard/src/dashboard/views/default/client/dashapp/index.tpl"
+			],
+			[
+				"dashapp/index.html",
+				"Dashboard/public/v2/js/bower_components/datatables-plugins/pagination/index.html"
+			],
+			[
+				"popovercli",
+				"Dashboard/public/v2/js/angular/src/directives/popoverClickOutDirective.coffee"
+			],
+			[
+				"dashwrapp",
+				"Dashboard/public/v2/js/angular/src/controllers/dashWrapperCtrl.coffee"
+			],
+			[
+				"dash.html",
+				"Dashboard/public/v2/js/angular/src/partials/dash.html"
+			],
+			[
+				"popoverwa",
+				"Dashboard/public/v2/js/angular/src/partials/popover.warnings.html"
+			],
+			[
+				"_pop",
+				"Dashboard/public/v2/src-styles/components/_popovers.scss"
+			],
+			[
+				"popover",
+				"Dashboard/public/v2/js/angular/src/directives/popoverScootDirective.coffee"
+			],
+			[
+				"popover.js",
+				"Dashboard/public/v2/js/bower_components/angular-strap/src/directives/popover.js"
+			],
+			[
+				"dashapp/",
+				"Dashboard/src/dashboard/views/default/client/dashapp/index.tpl"
+			],
+			[
+				"directive.all",
+				"Dashboard/public/v2/js/angular/src/partials/settings/directive.allConnections.html"
+			],
+			[
+				"directive.connect",
+				"Dashboard/public/v2/js/angular/src/partials/directive.connectionList.html"
+			],
+			[
+				"connectionlis",
+				"Dashboard/public/v2/js/angular/src/directives/connectionListDirective.coffee"
+			],
+			[
+				"sqlside",
+				"Dashboard/public/v2/js/angular/src/directives/sqlSidebarDirective.coffee"
+			],
+			[
+				"popovercl",
+				"Dashboard/public/v2/js/angular/src/directives/popoverClickOutDirective.coffee"
+			],
+			[
+				"popoverdir",
+				"Dashboard/public/v2/js/angular/src/directives/popoverClickOutDirective.coffee"
+			],
+			[
+				"popover.coffee",
+				"Dashboard/public/v2/js/angular/src/directives/popoverClickOutDirective.coffee"
+			],
+			[
+				"dashwrapperctrl.coffee",
+				"Dashboard/public/v2/js/angular/src/controllers/dashWrapperCtrl.coffee"
+			],
+			[
+				"_popover",
+				"Dashboard/public/v2/src-styles/components/_popovers.scss"
+			],
+			[
+				"popover.warnings.html",
+				"Dashboard/public/v2/js/angular/src/partials/popover.warnings.html"
+			],
+			[
+				"dashapp/in",
+				"Dashboard/src/dashboard/views/default/client/dashapp/index.tpl"
+			],
+			[
+				"dateser",
+				"Dashboard/public/v2/js/angular/src/services/dateService.coffee"
+			],
+			[
+				"figureserv",
+				"Dashboard/public/v2/js/angular/src/services/figureService.coffee"
+			],
+			[
+				"dateservicesp",
+				"Dashboard/test/js/angular/unit/services/dateServiceSpec.coffee"
+			],
+			[
+				"dateservice.",
+				"Dashboard/public/v2/js/angular/src/services/dateService.coffee"
+			],
+			[
+				"dashwrapper",
+				"Dashboard/public/v2/js/angular/src/controllers/dashWrapperCtrl.coffee"
+			],
+			[
+				"debugc",
+				"Dashboard/public/v2/js/angular/src/controllers/debugQueriesCtrl.coffee"
+			],
+			[
+				"dateservice",
+				"Dashboard/test/js/angular/unit/services/dateServiceSpec.coffee"
+			],
+			[
+				"dateservice.co",
+				"Dashboard/public/v2/js/angular/src/services/dateService.coffee"
+			],
+			[
+				"chartservice.c",
+				"Dashboard/public/v2/js/angular/src/services/chartFormatterService.coffee"
+			],
+			[
+				"figureservice",
+				"Dashboard/public/v2/js/angular/src/services/figureService.coffee"
+			],
+			[
+				"render",
+				"Dashboard/public/v2/js/angular/src/directives/renderHighchartDirective.coffee"
+			],
+			[
+				"figure.co",
+				"Dashboard/public/v2/js/angular/src/api/Figures.coffee"
+			],
+			[
+				"figures.",
+				"Dashboard/public/v2/js/angular/src/api/Figures.coffee"
+			],
+			[
+				"datawarehousectrl.coffee",
+				"Dashboard/public/v2/js/angular/src/controllers/dataWarehouseCtrl.coffee"
+			],
+			[
+				"dash.h",
+				"Dashboard/public/v2/js/angular/src/partials/dash.html"
+			],
+			[
+				"modal.scss",
+				"Dashboard/public/v2/src-styles/components/_modals.scss"
+			],
+			[
+				"_action-",
+				"Dashboard/public/v2/src-styles/components/_action-box.scss"
+			],
+			[
+				"debugquer",
+				"Dashboard/public/v2/js/angular/src/controllers/debugQueriesCtrl.coffee"
+			],
+			[
+				"debugdash",
+				"Dashboard/public/v2/js/angular/src/partials/modal.debugDashboardItem.html"
+			],
+			[
+				"onboarding.scss",
+				"Admin/public/admin/v3b/sass/onboarding.scss"
+			],
+			[
+				"redshiftcluster.scss",
+				"Admin/public/admin/v3b/sass/redshiftcluster.scss"
+			],
+			[
+				"gulpfile.",
+				"gulpfile.js"
+			],
+			[
+				"implementationstatus.scss",
+				"Admin/public/admin/v3b/sass/implementationstatus.scss"
+			],
+			[
+				"figuredi",
+				"Dashboard/public/v2/js/angular/src/directives/figureDirective.coffee"
+			],
+			[
+				"_nav",
+				"Dashboard/public/v2/src-styles/components/_navbar.scss"
+			],
+			[
+				"dashboardstor",
+				"Dashboard/public/v2/js/angular/src/partials/directive.dashboardStoreFilter.html"
+			],
+			[
+				"_utiliti",
+				"Dashboard/public/v2/src-styles/components/_utilities-bar.scss"
+			],
+			[
+				"utilities",
+				"Dashboard/public/v2/src-styles/components/_utilities.scss"
+			],
+			[
+				"index.tpl",
+				"Admin/src/admin/views/default/admins/index.tpl"
+			],
+			[
+				"_action",
+				"Dashboard/public/v2/src-styles/components/_action-box.scss"
+			],
+			[
+				"package.js",
+				"package.json"
+			],
+			[
+				"npm-shri",
+				"npm-shrinkwrap.json"
+			],
+			[
+				"gulpfile",
+				"gulpfile.js"
+			],
+			[
+				"_action-box.scss",
+				"Dashboard/public/v2/src-styles/components/_action-box.scss"
+			],
+			[
+				"modals.scs",
+				"Dashboard/public/v2/src-styles/components/_modals.scss"
+			],
+			[
+				"rjactionbox",
+				"Dashboard/styleguide/dashboard/components/rjActionBox.html"
+			],
+			[
+				"actionbox",
+				"Dashboard/public/v2/src-styles/components/_action-box.scss"
+			],
+			[
+				"modal.",
+				"Dashboard/public/v2/js/angular/src/partials/modal.dashClone.html"
+			],
+			[
+				"cloudbigoogleprofilepicker.html",
+				"Dashboard/public/v2/js/angular/src/partials/directive.cloudBiGoogleProfilePicker.html"
+			],
+			[
+				"directive.googleanalyticsmetricsanddimensions.html",
+				"Dashboard/public/v2/js/angular/src/common/googleAnalyticsMetricsAndDimensions/directive.googleAnalyticsMetricsAndDimensions.html"
+			],
+			[
+				"userav",
+				"Dashboard/public/v2/js/angular/src/directives/userAvatarDirective.coffee"
+			],
+			[
+				"dashapp/index.",
+				"Dashboard/src/dashboard/views/default/client/dashapp/index.tpl"
+			],
+			[
+				"_cbi.wellcs",
+				"Dashboard/public/v2/src-styles/components/_cbi.wells.scss"
+			],
+			[
+				"rjwell",
+				"Dashboard/styleguide/dashboard/components/rjWell.html"
+			],
+			[
+				"well",
+				"Dashboard/public/v2/src-styles/components/_wells.scss"
+			],
+			[
+				"_variables",
+				"Dashboard/public/v2/src-styles/utilities/_variables.scss"
+			],
+			[
+				"modal.chartsaveas.html",
+				"Dashboard/public/v2/js/angular/src/partials/modal.chartSaveAs.html"
+			],
+			[
+				"_icons.scs",
+				"Dashboard/public/v2/src-styles/components/_icons.scss"
+			],
+			[
+				"icons",
+				"Dashboard/styleguide/dashboard/elements/icons/icons.html"
+			],
+			[
+				"dashnat",
+				"Dashboard/public/v2/js/angular/src/controllers/dashNavMenuCtrl.coffee"
+			],
+			[
+				"overduebillingmodal",
+				"Dashboard/test/js/angular/unit/services/overdueBillingModalServiceSpec.coffee"
+			],
+			[
+				"billingmodal",
+				"Dashboard/public/v2/js/angular/src/services/overdueBillingModalService.coffee"
+			],
+			[
+				"dash.htm",
+				"Dashboard/public/v2/js/angular/src/partials/dash.html"
+			],
+			[
+				"debugqueriesctrl.coffee",
+				"Dashboard/public/v2/js/angular/src/controllers/debugQueriesCtrl.coffee"
+			],
+			[
+				"directive.replicationmethod.html",
+				"Dashboard/public/v2/js/angular/src/partials/directive.replicationMethod.html"
+			],
+			[
+				"modal..html",
+				"Dashboard/public/v2/js/angular/src/partials/modal.requestIntegration.html"
+			],
+			[
+				"modal",
+				"Dashboard/public/v2/js/angular/src/partials/modal.dependencies.html"
+			],
+			[
+				"modal.ren",
+				"Dashboard/public/v2/js/angular/src/partials/modal.renameDash.html"
+			],
+			[
+				"popover.debug",
+				"Dashboard/public/v2/js/angular/src/partials/popover.debug.html"
+			],
+			[
+				"modal.chart",
+				"Dashboard/public/v2/js/angular/src/partials/modal.chartSaveAs.html"
+			],
+			[
+				"dashnavm",
+				"Dashboard/public/v2/js/angular/src/controllers/dashNavMenuCtrl.coffee"
+			],
+			[
+				"tourwelcom",
+				"Dashboard/public/v2/js/angular/src/controllers/tourWelcomeCtrl.coffee"
+			],
+			[
+				"tour",
+				"Dashboard/public/v2/js/angular/src/services/tourService.coffee"
+			],
+			[
+				"variables.scss",
+				"Dashboard/public/v2/src-styles/utilities/_variables.scss"
+			],
+			[
+				"renderhigh",
+				"Dashboard/public/v2/js/angular/src/directives/renderHighchartDirective.coffee"
+			],
+			[
+				"chartdi",
+				"Dashboard/public/v2/js/angular/src/directives/chartDirective.coffee"
+			],
+			[
+				"icons.html",
+				"Dashboard/styleguide/dashboard/elements/icons/icons.html"
+			],
+			[
+				"icons.",
+				"Dashboard/styleguide/dashboard/elements/icons/icons.html"
+			],
+			[
+				"_icons.scss",
+				"Dashboard/public/v2/src-styles/components/_icons.scss"
+			],
+			[
+				"common.beta.css",
+				"Dashboard/public/v2/css/common.beta.css"
+			],
+			[
+				"bccsearchlist.html",
+				"Dashboard/public/v2/js/angular/src/partials/directive.bccSearchList.html"
+			],
+			[
+				"dashboard.layout.beta",
+				"Dashboard/public/v2/src-styles/_dashboard.layout.beta.scss"
+			],
+			[
+				"_report",
+				"Dashboard/public/v2/src-styles/_reportBuilder.scss"
+			],
+			[
+				"emailsummaryedi",
+				"Dashboard/public/v2/js/angular/src/partials/settings/emailsummary.edit.html"
+			],
+			[
+				"_reportbuilder.scss",
+				"Dashboard/public/v2/src-styles/_reportBuilder.scss"
+			],
+			[
+				"_dashboard.la",
+				"Dashboard/public/v2/src-styles/_dashboard.layout.beta.scss"
+			],
+			[
+				"icons.scss",
+				"Dashboard/public/v2/src-styles/components/_icons.scss"
+			],
+			[
+				"common.beta",
+				"Dashboard/public/v2/src-styles/common.beta.scss"
+			],
+			[
+				"figures",
+				"Dashboard/public/v2/js/angular/src/services/figureService.coffee"
+			],
+			[
+				"charts",
+				"Dashboard/public/v2/js/angular/src/api/Charts.coffee"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 1052.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 75.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

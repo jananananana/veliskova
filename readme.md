@@ -5,5 +5,3 @@ Get Started:
 OR
 
 - Go to: https://jananananana.github.io/veliskova/
-
-s

@@ -2,7 +2,7 @@
 
 
 // Teal Nav
-.b-main-nav {
+.top-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -40,24 +40,14 @@
     }
 }
 
-// Modal
-.b-modal {
-    margin: 30px auto;
-    max-width: 700px;
-    background-color: $modal-background;
-    box-shadow: 0 1px 3px 0 $border-color;
-    &__content {
-        padding: 20px 15px 15px;
+// Navigation
+.top-navigation {
+    
+    &__link {
+        background-color: $highlight-color;
     }
-    &__selection-buttons {
-        text-align: right;
-        background-color: $modal-footer-background;
-    }
-    &__heading {
-        margin-bottom: 33px;
-    }
-    &__button {
-        margin-left: 10px;
+    &__desktop {
+
     }
 }
 

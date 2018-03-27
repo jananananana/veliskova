@@ -2,7 +2,18 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Angular -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.11/angular.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.min.js"></script>
+        <!-- Inject Module -->
+        <script src="assets/javascripts/app.module.js" type="text/javascript"></script>
+        <!-- Inject Factory -->
+        <script src="assets/javascripts/factories/success.factory.js" type="text/javascript"></script>
+        <!-- Inject Components -->
+        <script src="assets/javascripts/topNavigation/topNavigation.component.js" type="text/javascript"></script>
+        <script src="assets/javascripts/success/successProb.component.js" type="text/javascript"></script>
+        <script src="assets/javascripts/resources/resourcesPage.component.js" type="text/javascript"></script>
+        <script src="assets/javascripts/bottomFooter/bottomFooter.component.js" type="text/javascript"></script>
 
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
@@ -13,28 +24,22 @@
     </head>
 
     <body class="b-body" ng-app="app">
-        <header class="b-main-nav">
+        <header class="top-header">
             <h1 class="b-heading--1"><span class="b-highlight">Jana Veliskova</span></h1>
         </header>
-        <a ui-sref="about">About</a>
-        <a ui-sref="resources">Resources</a>
+        <div class="top-navigation">
+            <a ui-sref="home">Home</a>
+            <a ui-sref="about">About</a>
+            <a ui-sref="resources">Resources</a>
+        </div>
         <ui-view></ui-view>
         <bottom-footer></bottom-footer>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.11/angular.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.min.js"></script>
         <!-- Slider -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.14.3/ui-bootstrap-tpls.js"></script>
         <script src="https://rawgit.com/rzajac/angularjs-slider/master/dist/rzslider.js"></script>
 
-        <!-- Inject Module -->
-        <script src="assets/javascripts/app.module.js" type="text/javascript"></script>
-        <!-- Inject Factory -->
-        <script src="assets/javascripts/factories/success.factory.js" type="text/javascript"></script>
-        <!-- Inject Components -->
-        <script src="assets/javascripts/success/successProb.component.js" type="text/javascript"></script>
-        <script src="assets/javascripts/resources/resourcesPage.component.js" type="text/javascript"></script>
-        <script src="assets/javascripts/bottomFooter/bottomFooter.component.js" type="text/javascript"></script>
+
     </body>
 </html>
 

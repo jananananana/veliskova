@@ -9,7 +9,7 @@
         controllerAs:'view'
     });
 
-    function ResourcesPageDataController (Resources) {
+    function ResourcesPageDataController(Resources) {
         var view = this;
 
     }

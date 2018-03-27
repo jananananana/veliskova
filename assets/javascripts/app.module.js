@@ -4,9 +4,9 @@
         .module('app', ['ui.router', 'rzModule', 'ui.bootstrap'])
         .config(function($stateProvider){
             var helloState = {
-                name: 'hello',
-                url: '/hello',
-                template: '<h3>hello world!</h3>'
+                name: 'resources',
+                url: '/resources',
+                templateUrl: 'routes/resources.html'
             }
 
             var aboutState = {

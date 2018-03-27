@@ -89,3 +89,10 @@
         line-height: 1.5;
     }
 }
+
+.b-footer {
+    position: fixed;
+    border-top: 1px solid $border-color;
+    width: 100%;
+    bottom: $bottom-spacing;
+}

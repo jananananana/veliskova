@@ -5,13 +5,12 @@
     .module('app')
     .component('bottomFooter', {
         templateUrl: './assets/javascripts/bottomFooter/bottomFooter.html',
-        controller: ['Footer', BottomFooterController],
+        controller: BottomFooterController,
         controllerAs:'view'
     });
 
-    function BottomFooterController(Footer) {
+    function BottomFooterController() {
         var view = this;
-        console.log("hey jana");
 
     }
 })();

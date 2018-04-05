@@ -5,11 +5,11 @@
     .module('app')
     .component('resourcesPage', {
         templateUrl: './assets/javascripts/resources/resourcesPage.html',
-        controller: ['Resources', ResourcesPageDataController],
+        controller: ResourcesPageDataController,
         controllerAs:'view'
     });
 
-    function ResourcesPageDataController(Resources) {
+    function ResourcesPageDataController() {
         var view = this;
 
     }

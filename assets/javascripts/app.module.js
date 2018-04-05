@@ -13,6 +13,11 @@
                     url: '/resources',
                     templateUrl: 'routes/resources.html'
                 },
+                blogState = {
+                    name: 'blog',
+                    url: '/blog',
+                    templateUrl: 'routes/blog.html'
+                },
                 aboutState = {
                     name: 'about',
                     url: '/about',
@@ -21,6 +26,7 @@
             $stateProvider.state(homeState);
             $stateProvider.state(resourcesState);
             $stateProvider.state(aboutState);
+            $stateProvider.state(blogState);
         });
 
 

@@ -2,7 +2,7 @@
 @import 'mixins';
 
 // Buttons
-%b-button--plain {
+%j-button--plain {
     display: inline-block;
     padding: 0;
     border: none;
@@ -43,11 +43,11 @@
         transition: all 0.3s;
     }
 }
-.b-button--plain {
-    @extend %b-button--plain;
+.j-button--plain {
+    @extend %j-button--plain;
 }
-.b-button--plain-cta {
-    @extend %b-button--plain;
+.j-button--plain-cta {
+    @extend %j-button--plain;
     color: $inverse-button-font-color;
     &:hover {
         color: darken( $inverse-button-font-color, 10% );
@@ -69,7 +69,7 @@
         fill: $inverse-button-font-color;
     }
 }
-.b-button {
+.j-button {
     padding: 9px 18px;
     border: 0;
     border-radius: 2px;
@@ -102,17 +102,17 @@
         box-shadow: none;
     }
 }
-.b-button--inverse {
+.j-button--inverse {
     color: $inverse-button-font-color;
     background-color: $inverse-button-background;
     &:hover,
     &:focus {
-        color: darken( $inverse-button-font-color, 10% );
-        background-color: $inverse-button-background;
+        color: $inverse-button-font-color;
+        background-color: $inverse-button-background-h;
     }
     &:active {
-        color: lighten( $main-button-color, 10% );
-        background-color: $inverse-button-background;
+        color: $inverse-button-font-color;
+        background-color: $inverse-button-background-a;
     }
 }
 // Headings
@@ -120,61 +120,4 @@
     font-size: 3em;
     font-family: $heading-font;
     font-weight: bold;
-}
-
-// Inputs
-.b-text-box-plain {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 6px 16px;
-    border: none;
-    color: $font-color;
-    font-size: 1em;
-    background-color: transparent;
-    box-shadow: none;
-    transition: background-color 0.3s ease-out;
-    &:focus {
-        background-color: $input-background-focus;
-        outline: none;
-    }
-    // use on parent element of inputs
-    &__dollar {
-        position: relative;
-        &:before {
-            position: absolute;
-            top: 3px;
-            left: 0;
-            font-weight: 600;
-            font-family: $heading-font;
-            content: "$";
-        }
-    }
-    &__percentage {
-        position: relative;
-        &:after {
-            position: absolute;
-            top: 3px;
-            right: 5px;
-            font-weight: 600;
-            font-family: $heading-font;
-            content: "%";
-        }
-    }
-    &__K {
-        position: relative;
-        &:after {
-            position: absolute;
-            top: 3px;
-            right: 5px;
-            font-weight: 600;
-            font-family: $heading-font;
-            content: "K";
-        }
-
-    }
-}
-
-// Form Labels
-.b-form-label {
-    font-size: 1em;
 }

@@ -1,0 +1,26 @@
+// Navigation
+.j-nav {
+    margin: 0 auto;
+    &__link {
+        padding: 1em;
+        margin-right: 20px;
+        border-radius: 50%;
+        width: 3em;
+        height: 3em;
+        text-align: center;
+        font-size: 2em;
+        box-shadow: 3px 3px 0 0 $nav-highlight;
+        &:last-child {
+            margin-right: 0;
+        }
+        &:hover, &:focus {
+            box-shadow: 3px 3px 0 0 $nav-highlight-h;
+        }
+        &:active {
+            box-shadow: 3px 3px 0 0 $nav-highlight-a;
+        }
+    }
+    &__desktop {
+        padding: 1em;
+    }
+}

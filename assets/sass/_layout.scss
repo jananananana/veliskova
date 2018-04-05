@@ -1,0 +1,24 @@
+.j-main-sizing {
+    margin: 0 auto;
+    border-right: $border-style;
+    border-left: $border-style;
+    max-width: 980px;
+    text-align: center;
+}
+
+.j-body {
+    @include font-smoothing;
+    background-color: $background-color;
+    color: $font-color;
+    font-family: $font;
+    font-size: $base-font-size;
+}
+
+.j-main {
+    bottom: $bottom-spacing;
+}
+
+.j-table {
+    display: table;
+    margin: 0 auto;
+}

@@ -17,22 +17,30 @@
 
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-        <link rel="stylesheet" href="https://rawgit.com/rzajac/angularjs-slider/master/dist/rzslider.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="assets/stylesheets/styles.css">
 
         <title>Veliskova</title>
     </head>
 
-    <body class="b-body" ng-app="app">
+    <body class="j-body" ng-app="app">
         <header class="top-header">
-            <h1 class="b-heading--1"><span class="b-highlight">Jana Veliskova</span></h1>
+            <h1 class="b-heading--1"><span class="j-highlight">Jana Veliskova</span></h1>
         </header>
-        <div class="top-navigation">
-            <a ui-sref="home">Home</a>
-            <a ui-sref="about">About</a>
-            <a ui-sref="resources">Resources</a>
+        <div class="j-nav">
+            <div class="j-main-sizing">
+                <div class="j-table">
+                    
+                    <a class="j-button--plain j-button--inverse j-nav__link" ui-sref="home">
+                        Home
+                    </a>
+                    <a class="j-button--plain j-button--inverse j-nav__link" ui-sref="about">About</a>
+                    <a class="j-button--plain j-button--inverse j-nav__link" ui-sref="resources">Resources</a>
+                    <a class="j-button--plain j-button--inverse j-nav__link" ui-sref="blog">Blog</a>
+                </div>
+            </div>
         </div>
-        <ui-view></ui-view>
+        <ui-view class="j-main j-main-sizing"></ui-view>
         <bottom-footer></bottom-footer>
 
         <!-- Slider -->

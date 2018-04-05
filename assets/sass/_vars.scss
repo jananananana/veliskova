@@ -48,15 +48,22 @@ $heading-font-color:            $very-dark-cyan;
 // Backgrounds
 $background-color:              $white;
 $header-background:             $very-dark-gray;
-$modal-background:              $white;
-$modal-footer-background:       $light-gray;
+$footer-background:             $greenish-cyan;
 
 // Highlight
 $highlight-color:               $bright-magenta;
 
+$nav-highlight:                 $grayish-pink;
+$nav-highlight-h:               $gray;
+$nav-highlight-a:               $yellowish-beige;
+
 // Borders and Dividers
 $divider-color:                 $gray;
 $border-color:                  $black-alpha;
+$highlight-border:              $cyan;
+
+$border-style:                  10px solid $highlight-border;
+
 
 // Buttons
 $main-button-color:             $light-red;
@@ -65,11 +72,11 @@ $main-button-color-border:      $black-alpha;
 $main-button-disabled:          $very-light-gray;
 $main-button-disabled-font:     $dark-cyan-alpha;
 
-$inverse-button-font-color:     $light-red-alt;
-$inverse-button-background:     $white;
+$inverse-button-font-color:     $white;
+$inverse-button-background:     $bright-magenta;
+$inverse-button-background-h:   $grayish-pink;
+$inverse-button-background-a:   $cyan;
 
-$slider-color:                  $light-red-alt;
-$slider-color-alt:              $very-dark-grayish-cyan;
 
 $plain-button-hover:            $dark-moderate-cyan;
 $plain-button-active:           $light-grayish-cyan;

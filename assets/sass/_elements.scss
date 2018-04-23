@@ -14,83 +14,73 @@
     background: none;
     box-shadow: none;
     outline: none;
+    transition: all 0.1s;
     &:focus,
     &:hover,
     &:active {
         background: none;
         box-shadow: none;
-        transition: all 0.3s;
     }
     &:hover {
         color: $plain-button-hover;
-        .b-svg-path {
-            fill: $plain-button-hover;
-        }
     }
     &:active {
         color: $plain-button-active;
-        .b-svg-path {
-            fill: $plain-button-active;
-        }
     }
     &[disabled]:disabled {
         color: $plain-button-disabled;
         opacity: 1;
         background: none;
     }
-    .b-svg-path {
-        fill: $font-color;
-        transition: all 0.3s;
-    }
 }
 .j-button--plain {
     @extend %j-button--plain;
 }
-.j-button--plain-cta {
+
+.j-button--plain-fancy {
     @extend %j-button--plain;
-    color: $inverse-button-font-color;
-    &:hover {
-        color: darken( $inverse-button-font-color, 10% );
-        .b-svg-path {
-            fill: darken( $inverse-button-font-color, 10% );
-        }
+    color: $main-button-color;
+    text-shadow: 0px -1px $font-color-inverse;
+    font-family: 'Pacifico', cursive;
+    font-weight: 500;
+    &:hover,
+    &:focus {
+        color: $main-button-border-hover;
+        text-shadow: 0 -1px $font-color-inverse;
     }
     &:active {
-        color: lighten( $inverse-button-font-color, 10% );
-        .b-svg-path {
-            fill: lighten( $inverse-button-font-color, 10% );;
-        }
-    }
-    &[disabled]:disabled {
-        color: $plain-button-disabled;
-    }
-    // Nesting required to target appropriate SVG inside button class
-    .b-svg-path {
-        fill: $inverse-button-font-color;
+        color: $main-button-border-hover;
+        text-shadow: 0 -1px $main-button-hover;
     }
 }
+
 .j-button {
-    padding: 9px 18px;
+    position: relative;
+    display: inline-block;
+    padding: 10px 40px;
     border: 0;
-    border-radius: 2px;
+    border-bottom: 5px solid $main-button-color-border;
+    border-radius: 10px;
     color: $main-button-font-color;
     cursor: pointer;
-    font-size: 0.95em;
+    font-family: 'Pacifico', cursive;
+    font-size: 2em;
     font-weight: 500;
-    text-shadow: none;
+    text-align: center;
+    text-shadow: 0 -2px $main-button-color-border;
     text-decoration: none;
     background-image: none;
     background-color: $main-button-color;
-    box-shadow: 0 1px 3px 0 $main-button-color-border;
-    text-align: center;
-    transition: all 0.3s;
+    transition: all 0.1s;
     outline: none;
+
     &:hover,
     &:focus {
-        background-color: darken( $main-button-color, 10% );
+        border-bottom-color: $main-button-border-hover;
     }
     &:active {
-        background-color: lighten( $main-button-color, 10% );
+        transform: translate(0,5px);
+        border-bottom: 1px solid $main-button-border-hover;
     }
     &[disabled]:disabled {
         padding: 10px 18px;
@@ -102,19 +92,7 @@
         box-shadow: none;
     }
 }
-.j-button--inverse {
-    color: $inverse-button-font-color;
-    background-color: $inverse-button-background;
-    &:hover,
-    &:focus {
-        color: $inverse-button-font-color;
-        background-color: $inverse-button-background-h;
-    }
-    &:active {
-        color: $inverse-button-font-color;
-        background-color: $inverse-button-background-a;
-    }
-}
+
 // Headings
 .b-heading--1 {
     font-size: 3em;

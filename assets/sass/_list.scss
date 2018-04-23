@@ -1,0 +1,22 @@
+// Navigation
+.j-desc-list {
+    text-align: left;
+    li {
+        padding-bottom: 1em;
+        color: $font-color;
+        text-shadow: 0 -1px $font-color-inverse;
+        font-size: 1.5em;
+        &:last-child{
+            padding-bottom: 0;
+        }
+    }
+    &__special {
+        font-size: 1.2em;
+        font-weight: 800;
+
+    }
+    &__link {
+        font-size: 1.2em;
+    }
+}
+

@@ -17,7 +17,7 @@
 
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="assets/stylesheets/styles.css">
 
         <title>Veliskova</title>
@@ -25,22 +25,28 @@
 
     <body class="j-body" ng-app="app">
         <header class="top-header">
-            <h1 class="b-heading--1"><span class="j-highlight">Jana Veliskova</span></h1>
+            <h1 class="b-heading--1 top-header__h">
+                <span class="top-header__text">
+                    Hi! I'm Jana.
+                </span>
+                <span class="top-header__deco">
+                    <ng-include src="'assets/images/swoosh.svg'"></ng-include>
+                </span>
+            </h1>
         </header>
-        <div class="j-nav">
-            <div class="j-main-sizing">
-                <div class="j-table">
-                    
-                    <a class="j-button--plain j-button--inverse j-nav__link" ui-sref="home">
-                        Home
-                    </a>
-                    <a class="j-button--plain j-button--inverse j-nav__link" ui-sref="about">About</a>
-                    <a class="j-button--plain j-button--inverse j-nav__link" ui-sref="resources">Resources</a>
-                    <a class="j-button--plain j-button--inverse j-nav__link" ui-sref="blog">Blog</a>
-                </div>
+        <div class="j-nav j-borders">
+            <div class="j-nav__container j-main-sizing">
+                <a class="j-button j-nav__link" ui-sref="home">
+                    Home
+                </a>
+                <a class="j-button j-nav__link" ui-sref="about">About</a>
+                <a class="j-button j-nav__link" ui-sref="resources">Resources</a>
+                <a class="j-button j-nav__link" ui-sref="blog">Blog</a>
             </div>
         </div>
-        <ui-view class="j-main j-main-sizing"></ui-view>
+        <div class="j-main j-borders">
+            <ui-view class="j-main j-main-sizing"></ui-view>
+        </div>
         <bottom-footer></bottom-footer>
 
         <!-- Slider -->

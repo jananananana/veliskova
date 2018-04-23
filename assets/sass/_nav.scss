@@ -2,25 +2,21 @@
 .j-nav {
     margin: 0 auto;
     &__link {
-        padding: 1em;
-        margin-right: 20px;
-        border-radius: 50%;
-        width: 3em;
-        height: 3em;
-        text-align: center;
-        font-size: 2em;
-        box-shadow: 3px 3px 0 0 $nav-highlight;
+        margin: 1em;
         &:last-child {
-            margin-right: 0;
+            margin-right: none;
         }
-        &:hover, &:focus {
-            box-shadow: 3px 3px 0 0 $nav-highlight-h;
-        }
-        &:active {
-            box-shadow: 3px 3px 0 0 $nav-highlight-a;
+    }
+    &__container {
+        display: block;
+        @media (min-width: #{$medium-breakpoint}) {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
         }
     }
     &__desktop {
         padding: 1em;
     }
 }
+

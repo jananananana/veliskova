@@ -1,7 +1,5 @@
 .j-main-sizing {
     margin: 0 auto;
-    border-right: $border-style;
-    border-left: $border-style;
     max-width: 980px;
     text-align: center;
 }
@@ -14,11 +12,40 @@
     font-size: $base-font-size;
 }
 
+.j-borders {
+    border-right: $border-style;
+    border-left: $border-style;
+}
+
 .j-main {
+    display: block;
     bottom: $bottom-spacing;
 }
 
 .j-table {
     display: table;
     margin: 0 auto;
+}
+
+.j-home {
+    padding: 1em;
+    &__desc {
+        display: inline-block;
+        padding: 20px;
+        width: 55%;
+        border-radius: 10px;
+        text-align: left;
+        background-color: $overlay-background;
+    }
+    &__pic-container {
+        display: inline-block;
+        margin-left: -4px;
+        box-sizing: border-box;
+        width: 45%;
+        // border-top: $border-style;
+        // border-bottom: $border-style;
+    }
+    &__pic {
+        width: 100%;
+    }
 }

@@ -5,7 +5,7 @@
         .config(function($stateProvider){
             var homeState = {
                     name: 'home',
-                    url: '/',
+                    url: '',
                     templateUrl: 'routes/home.html'
                 },
                 resourcesState = {

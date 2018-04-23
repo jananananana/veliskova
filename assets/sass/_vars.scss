@@ -9,10 +9,14 @@ $yellowish-beige:               #DAD8A7;
 $grayish-pink:                  #FF9E9D;
 $bright-magenta:                #FF3D7F;
 
-$light-red:                     #ff8a65;
-$light-red-alt:                 #ff7043;
+$dark-magenta:                  #a40037;
+$darker-magenta:                #710026;
+
+
 $very-dark-grayish-cyan:        #606564;
 $very-dark-cyan:                #153d39;
+$yellowish-beige-alpha:         rgba(218, 216, 167, 0.6);
+
 $light-grayish-cyan:            #e4f2f3;
 $slightly-desaturated-cyan:     #76bcc2;
 $dark-moderate-cyan:            #31766f; 
@@ -33,7 +37,7 @@ $gray:                          #BBBBBB;
 $light-gray:                    #f4f4f4;
 $very-light-gray:               #e4e4e4;
 $very-dark-gray:                #333333;
-$black-alpha:                   rgba(0, 0, 0, 0.3);
+$black-alpha:                   rgba(0, 0, 0, 0.5);
 $black:                         #000000;
 
 // ==========================================================================
@@ -49,6 +53,7 @@ $heading-font-color:            $very-dark-cyan;
 $background-color:              $white;
 $header-background:             $very-dark-gray;
 $footer-background:             $greenish-cyan;
+$overlay-background:            $yellowish-beige-alpha;
 
 // Highlight
 $highlight-color:               $bright-magenta;
@@ -66,14 +71,15 @@ $border-style:                  10px solid $highlight-border;
 
 
 // Buttons
-$main-button-color:             $light-red;
+$main-button-color:             $bright-magenta;
+$main-button-hover:             $grayish-pink;
 $main-button-font-color:        $white;
-$main-button-color-border:      $black-alpha;
+$main-button-color-border:      $dark-magenta;
+$main-button-border-hover:      $darker-magenta;
 $main-button-disabled:          $very-light-gray;
 $main-button-disabled-font:     $dark-cyan-alpha;
 
 $inverse-button-font-color:     $white;
-$inverse-button-background:     $bright-magenta;
 $inverse-button-background-h:   $grayish-pink;
 $inverse-button-background-a:   $cyan;
 
@@ -91,6 +97,14 @@ $icon-color:                    $dark-moderate-cyan;
 // Spacing
 $bottom-spacing:                2em;
 
+// Z-indexing
+$zindex: (
+  modal     : 900, 
+  overlay   : 800,
+  dropdown  : 700,
+  header    : 600,
+  footer    : 500
+);
 
 // ==========================================================================
 // Breakpoint widths

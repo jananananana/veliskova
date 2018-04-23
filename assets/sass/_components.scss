@@ -1,7 +1,4 @@
-@import 'vars';
-@import 'icons';
-@import 'footer';
-
+// Other components
 
 // Teal Nav
 .top-header {
@@ -13,6 +10,24 @@
     background-color: $header-background;
     color: $font-color-inverse;
     box-shadow: 0 1px 4px 0 $border-color;
+    &__deco {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 50px;
+        width: 200px;
+        color: $highlight-color;
+    }
+    .swoosh-svg {
+        fill: currentColor;
+    }
+    &__h {
+        position: relative;
+    }
+    &__text {
+        position: relative;
+        z-index: map-get($zindex, overlay);
+    }
     @media (min-width: #{$medium-breakpoint}) {
         justify-content: initial;
     }
@@ -33,15 +48,14 @@
     }
 }
 
-// Text Highlight
-.j-highlight {
-    position: relative;
-    z-index: 1;
-    box-shadow: inset 0 -21px 0 0 $highlight-color, 60px 14px 0px -14px $highlight-color;
+.mobile-only {
+    @media (min-width: #{$medium-breakpoint}) {
+        display: none;
+    }
 }
-
-.j-hero {
-    width: 100%;
-    border-top: $border-style;
-    border-bottom: $border-style;
+.desktop-only {
+    display: none;
+    @media (min-width: #{$medium-breakpoint}) {
+        display: inline-block;
+    }
 }

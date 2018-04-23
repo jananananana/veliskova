@@ -19,7 +19,6 @@
 
 .j-main {
     display: block;
-    bottom: $bottom-spacing;
 }
 
 .j-table {
@@ -28,24 +27,42 @@
 }
 
 .j-home {
-    padding: 1em;
+    @include spacing;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    @media (min-width: #{$medium-breakpoint}) {
+        flex-wrap: nowrap;
+    }
     &__desc {
-        display: inline-block;
+        flex-grow: 1;
+        box-sizing: border-box;
         padding: 20px;
-        width: 55%;
         border-radius: 10px;
+        min-width: 400px;
+        margin-bottom: 2em;
         text-align: left;
         background-color: $overlay-background;
+        box-shadow: $box-shadow-style;
+        @media (min-width: #{$medium-breakpoint}) {
+            margin-right: 2em;
+            margin-bottom: 0;
+        }
     }
     &__pic-container {
-        display: inline-block;
-        margin-left: -4px;
-        box-sizing: border-box;
-        width: 45%;
-        // border-top: $border-style;
-        // border-bottom: $border-style;
+        flex-grow: 1;
     }
     &__pic {
         width: 100%;
+        box-sizing: border-box;
+        border: $border-style;
+        border-radius: 10px;
+        box-shadow: 0 0 1px 1px $border-color;
     }
+}
+
+.j-about {
+    @include spacing;
+    min-height: 600px; 
 }

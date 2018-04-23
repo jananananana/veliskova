@@ -4,7 +4,7 @@
 
 // Primary
 $cyan:                          #3FB8AF;
-$greenish-cyan:                 #7FC7AF;
+//$greenish-cyan:                 #7FC7AF;
 $yellowish-beige:               #DAD8A7;
 $grayish-pink:                  #FF9E9D;
 $bright-magenta:                #FF3D7F;
@@ -15,7 +15,7 @@ $darker-magenta:                #710026;
 
 $very-dark-grayish-cyan:        #606564;
 $very-dark-cyan:                #153d39;
-$yellowish-beige-alpha:         rgba(218, 216, 167, 0.6);
+$greenish-cyan-alpha:           rgba(127, 199, 175, 0.2);
 
 $light-grayish-cyan:            #e4f2f3;
 $slightly-desaturated-cyan:     #76bcc2;
@@ -52,8 +52,8 @@ $heading-font-color:            $very-dark-cyan;
 // Backgrounds
 $background-color:              $white;
 $header-background:             $very-dark-gray;
-$footer-background:             $greenish-cyan;
-$overlay-background:            $yellowish-beige-alpha;
+$footer-background:             $very-dark-gray;
+$overlay-background:            $greenish-cyan-alpha;
 
 // Highlight
 $highlight-color:               $bright-magenta;
@@ -69,6 +69,9 @@ $highlight-border:              $cyan;
 
 $border-style:                  10px solid $highlight-border;
 
+$box-shadow-style:              0 0 4px 0 $border-color;
+$box-shadow-style-top:          0 1px 4px 0 $border-color;
+$box-shadow-style-bottom:       0 -1px 4px 0 $border-color;
 
 // Buttons
 $main-button-color:             $bright-magenta;

@@ -54,6 +54,18 @@
     }
 }
 
+.j-button--footer {
+    @extend %j-button--plain;
+    color: $font-color-inverse;
+    &:hover,
+    &:focus {
+        color: $plain-button-active;
+    }
+    &:active {
+        color: $plain-button-hover;
+    }
+}
+
 .j-button {
     position: relative;
     display: inline-block;

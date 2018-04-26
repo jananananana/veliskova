@@ -40,7 +40,6 @@
         box-sizing: border-box;
         padding: 20px;
         border-radius: 10px;
-        min-width: 400px;
         margin-bottom: 2em;
         text-align: left;
         background-color: $overlay-background;
@@ -48,6 +47,7 @@
         @media (min-width: #{$medium-breakpoint}) {
             margin-right: 2em;
             margin-bottom: 0;
+            min-width: 400px;
         }
     }
     &__pic-container {

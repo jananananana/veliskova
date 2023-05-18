@@ -37,7 +37,11 @@
   }
 }
 
-.footer {
+.j-header {
+
+}
+
+.j-footer {
   display: block;
   width: 100%;
   background-color: #282c34;

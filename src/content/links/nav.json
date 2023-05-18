@@ -1,0 +1,14 @@
+{
+  "1": {
+    "text": "About",
+    "link": "/about"
+  },
+  "2": {
+    "text": "Blog",
+    "link": "/blog"
+  },
+  "3": {
+    "text": "Work",
+    "link": "/work"
+  }
+}

@@ -2,7 +2,7 @@ import Navbar from './Navbar';
 
 export default function Header(){
     return (
-        <header className="j-header">
+        <header className="top-header">
             <div>
                 Jana Veliskova
             </div>

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import jsonData from './content/links/nav.json';
+import { Link } from 'react-router-dom';
+import jsonData from '../content/links/nav.json';
 
 
 export default function Navbar(){
@@ -13,12 +14,13 @@ export default function Navbar(){
 
 
     return (
-        <nav className="j-header">
+        <nav>
             <ul>
                 {data.map((item, index) => (
-                    <li key={index}>{item.text}</li>
+                    <li key={index}>
+                        <Link to={item.href}>{item.text}</Link>
+                    </li>
                 ))}
-
             </ul>
         </nav>
     )

@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/veliskova/static/css/main.64168bfb.css",
+    "main.js": "/veliskova/static/js/main.31cb178c.js",
+    "static/js/787.b98d315e.chunk.js": "/veliskova/static/js/787.b98d315e.chunk.js",
+    "index.html": "/veliskova/index.html",
+    "static/media/Home": "/veliskova/static/media/Home.31d6cfe0d16ae931b73c",
+    "main.64168bfb.css.map": "/veliskova/static/css/main.64168bfb.css.map",
+    "main.31cb178c.js.map": "/veliskova/static/js/main.31cb178c.js.map",
+    "787.b98d315e.chunk.js.map": "/veliskova/static/js/787.b98d315e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64168bfb.css",
+    "static/js/main.31cb178c.js"
+  ]
+}

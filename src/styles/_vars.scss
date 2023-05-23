@@ -1,0 +1,125 @@
+//==========================================================================
+// Colors
+//==========================================================================
+
+// Primary
+$cyan:                          #3FB8AF;
+$greenish-cyan:                 #7FC7AF;
+$yellowish-beige:               #DAD8A7;
+$grayish-pink:                  #FF9E9D;
+$bright-magenta:                #FF3D7F;
+
+$dark-magenta:                  #a40037;
+$darker-magenta:                #710026;
+
+
+$very-dark-grayish-cyan:        #606564;
+$very-dark-cyan:                #153d39;
+$greenish-cyan-alpha:           rgba(127, 199, 175, 0.2);
+
+$light-grayish-cyan:            #e4f2f3;
+$slightly-desaturated-cyan:     #76bcc2;
+$dark-moderate-cyan:            #31766f; 
+$slighty-desaturated-green:     #a4b880;
+$slighty-desaturated-violet:    #9480b8;
+$moderate-orange:               #d56e44;
+$moderate-yellow:               #d5b744;
+$very-soft-yellow:              #e5de8a;
+$dark-cyan-alpha:               rgba(21, 61, 57, 0.3);
+
+
+//==========================================================================
+// Grays
+//==========================================================================
+
+$white:                         #FFFFFF;
+$gray:                          #BBBBBB;
+$light-gray:                    #f4f4f4;
+$very-light-gray:               #e4e4e4;
+$very-dark-gray:                #333333;
+$black-alpha:                   rgba(0, 0, 0, 0.5);
+$black:                         #000000;
+
+// ==========================================================================
+// Functional Colors
+// ==========================================================================
+
+// Fonts
+$font-color:                    $very-dark-grayish-cyan;
+$font-color-inverse:            $white;
+$heading-font-color:            $very-dark-cyan;
+
+// Backgrounds
+$background-color:              $white;
+$header-background:             $very-dark-gray;
+$footer-background:             $very-dark-gray;
+$overlay-background:            $greenish-cyan-alpha;
+
+// Highlight
+$highlight-color:               $bright-magenta;
+
+$nav-highlight:                 $grayish-pink;
+$nav-highlight-h:               $gray;
+$nav-highlight-a:               $yellowish-beige;
+
+// Borders and Dividers
+$divider-color:                 $gray;
+$border-color:                  $black-alpha;
+$highlight-border:              $cyan;
+
+$border-style:                  10px solid $highlight-border;
+
+$box-shadow-style:              0 0 4px 0 $border-color;
+$box-shadow-style-top:          0 1px 4px 0 $border-color;
+$box-shadow-style-bottom:       0 -1px 4px 0 $border-color;
+
+// Buttons
+$main-button-color:             $bright-magenta;
+$main-button-hover:             $grayish-pink;
+$main-button-font-color:        $white;
+$main-button-color-border:      $dark-magenta;
+$main-button-border-hover:      $darker-magenta;
+$main-button-disabled:          $very-light-gray;
+$main-button-disabled-font:     $dark-cyan-alpha;
+
+$inverse-button-font-color:     $white;
+$inverse-button-background-h:   $grayish-pink;
+$inverse-button-background-a:   $cyan;
+
+
+$plain-button-hover:            $dark-moderate-cyan;
+$plain-button-active:           $light-grayish-cyan;
+$plain-button-disabled:         $gray;
+
+// Inputs
+$input-background-focus:        $light-gray;
+
+// Icons
+$icon-color:                    $dark-moderate-cyan;
+
+// Spacing
+$bottom-spacing:                2em;
+
+// Z-indexing
+$zindex: (
+  modal     : 900, 
+  overlay   : 800,
+  dropdown  : 700,
+  header    : 600,
+  footer    : 500
+);
+
+// ==========================================================================
+// Breakpoint widths
+// ==========================================================================
+
+$medium-breakpoint:             760px;
+
+// ==========================================================================
+// Fonts
+// ==========================================================================
+
+$base-font-size:                14px;
+$font:                          'Roboto Slab', serif;
+$heading-font:                   Roboto;
+$icon-font:                     'Material Icons';

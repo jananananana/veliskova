@@ -2,16 +2,16 @@
 // Colors
 //==========================================================================
 
-// Primary
+// OLD THEME - Primary
 $cyan:                          #3FB8AF;
 $greenish-cyan:                 #7FC7AF;
 $yellowish-beige:               #DAD8A7;
 $grayish-pink:                  #FF9E9D;
 $bright-magenta:                #FF3D7F;
 
+//
 $dark-magenta:                  #a40037;
 $darker-magenta:                #710026;
-
 
 $very-dark-grayish-cyan:        #606564;
 $very-dark-cyan:                #153d39;
@@ -26,6 +26,15 @@ $moderate-orange:               #d56e44;
 $moderate-yellow:               #d5b744;
 $very-soft-yellow:              #e5de8a;
 $dark-cyan-alpha:               rgba(21, 61, 57, 0.3);
+
+//
+// NEW THEME - PRIMARY CITY OF GOD
+//
+$steel-blue:                    #536C8B;
+$steel-gray:                    #858DA0;
+$chocolate-brown:               #705B4A;
+$beige:                         #B8AB89;
+$peach:                         #F1DBC4;
 
 
 //==========================================================================
@@ -121,5 +130,5 @@ $medium-breakpoint:             760px;
 
 $base-font-size:                14px;
 $font:                          'Roboto Slab', serif;
-$heading-font:                   Roboto;
+$heading-font:                   Montserrat;
 $icon-font:                     'Material Icons';

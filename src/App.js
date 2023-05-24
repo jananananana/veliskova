@@ -1,3 +1,6 @@
+import React, { useEffect, useState } from 'react';
+import WebFont from 'webfontloader';
+
 // import logo from './logo.svg';
 import './App.scss';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
@@ -16,6 +19,15 @@ const TRACKING_ID = "367154554";
 ReactGA.initialize(TRACKING_ID);
 
 function App() {
+
+  useEffect(() => {
+    WebFont.load({
+      google: {
+        families: ['Pacifico', 'Montserrat', 'Roboto Slab', 'Roboto', 'Material Icons'],
+      },
+    });
+  }, []);
+
   return (
     <div className="">
       

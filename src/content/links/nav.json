@@ -10,5 +10,9 @@
   "3": {
     "text": "Work",
     "href": "/work"
+  },
+  "4": {
+    "text": "Portfolio",
+    "href": "/portfolio"
   }
 }

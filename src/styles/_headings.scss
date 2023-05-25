@@ -1,0 +1,11 @@
+
+// Headings
+.b-heading--1 {
+    font-size: 4em;
+    font-family: $heading-font;
+    font-weight: bold;
+    &__highlight {
+        color: $highlight-color;
+        font-weight: 800;
+    }
+}

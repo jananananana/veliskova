@@ -1,0 +1,61 @@
+// Other components
+
+// Header
+.top-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    padding: 0 20px;
+    background-color: $header-background;
+    color: $font-color-inverse;
+    box-shadow: $box-shadow-style;
+    @media (min-width: #{$medium-breakpoint}) {
+        justify-content: initial;
+    }
+    &__deco {
+        position: absolute;
+        top: 18px;
+        right: 0;
+        height: 50px;
+        width: 88px;
+        color: $highlight-color;
+    }
+    .swoosh-svg {
+        fill: currentColor;
+    }
+    &__h {
+        position: relative;
+    }
+    &__text {
+        position: relative;
+        z-index: map-get($zindex, overlay);
+    }
+    &__desktop {
+        display: none;
+        svg {
+            margin-right: 40px;
+        }
+        @media (min-width: #{$medium-breakpoint}) {
+            display: inline-block;
+        }
+    }
+    &__mobile-nav {
+        display: inline-block;
+        @media (min-width: #{$medium-breakpoint}) {
+            display: none;
+        }
+    }
+}
+
+.mobile-only {
+    @media (min-width: #{$medium-breakpoint}) {
+        display: none;
+    }
+}
+.desktop-only {
+    display: none;
+    @media (min-width: #{$medium-breakpoint}) {
+        display: inline-block;
+    }
+}

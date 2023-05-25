@@ -1,17 +1,18 @@
+import React from 'react';
 import Navbar from './Navbar';
+import Home from './Home';
+import { Link } from 'react-router-dom';
 
 export default function Header(){
     return (
-        <header>
-            <div className="top-header">
-                <h1 className="b-heading--1">
-                    Hi! I'm Jana
-                </h1>
-            </div>
-            <div className='j-nav'>
-                <Navbar/>
-            </div>
-            
+        <header className='top-header'>
+            <h1 className="top-header__left b-heading--1">
+            <Link to={Home} className='j-button--plain-inverse'> Hi! I'm <span className='b-heading--1__highlight'>Jana</span></Link>
+               
+            </h1>
+
+            <Navbar/>
+
         </header>
     )
 }

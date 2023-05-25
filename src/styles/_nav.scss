@@ -1,10 +1,11 @@
 // Navigation
 .j-nav {
-    margin: 0 auto;
+    margin: 0 0 0 auto;
     &__link {
         margin: 1em;
+        font-size: 1.5em;
         &:last-child {
-            margin-right: none;
+            margin-right: 0;
         }
     }
     &__container {
@@ -18,9 +19,4 @@
     &__desktop {
         padding: 1em;
     }
-}
-
-.j-whatever {
-    display: inline-block;
-    padding: 20px;
 }

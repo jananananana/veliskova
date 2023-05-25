@@ -14,11 +14,11 @@ export default function Navbar(){
 
 
     return (
-        <nav>
+        <nav className='j-nav'>
             <ul className='j-nav__container'>
                 {data.map((item, index) => (
-                    <li className='j-whatever' key={index}>
-                        <Link className='j-nav__link j-button--plain-fancy' to={item.href}>{item.text}</Link>
+                    <li className='j-nav__link' key={index}>
+                        <Link className='j-button--plain-inverse' to={item.href}>{item.text}</Link>
                     </li>
                 ))}
             </ul>

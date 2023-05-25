@@ -7,7 +7,7 @@ export default function Header(){
     return (
         <header className='top-header'>
             <h1 className="top-header__left b-heading--1">
-            <Link to={Home} className='j-button--plain-inverse'> Hi! I'm <span className='b-heading--1__highlight'>Jana</span></Link>
+                <Link to={'home'} className='j-button--plain-inverse'> Hi! I'm <span className='b-heading--1__highlight'>Jana</span></Link>
                
             </h1>
 

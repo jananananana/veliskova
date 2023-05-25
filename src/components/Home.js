@@ -4,7 +4,7 @@ export default function Home(){
     
     return (
         <div className="j-home">
-            Home page suckas
+            Good things are coming
         </div>
     )
 }

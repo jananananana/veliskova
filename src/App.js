@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import WebFont from 'webfontloader';
 
 // import logo from './logo.svg';
+//  npm run deploy  in gh-pages
 import './App.scss';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { BrowserRouter, Switch } from 'react-router-dom';
@@ -25,7 +26,7 @@ function App() {
   useEffect(() => {
     WebFont.load({
       google: {
-        families: ['Pacifico', 'Montserrat', 'Roboto Slab', 'Roboto', 'Material Icons'],
+        families: ['Pacifico', 'Montserrat', 'Roboto Slab', 'Roboto', 'Source Sans Pro', 'Material Icons'],
       },
     });
   }, []);
@@ -43,14 +44,6 @@ function App() {
 
         </Routes>
       </BrowserRouter>
-
-      <div className="j-home">
-        <div className="j-home__pic-container">
-          <img className="j-home__pic" src={process.env.PUBLIC_URL + '/images/portraits/photo-2.jpg'}  alt="Jana standing in a red dress with city in the background" />
-        </div>
-
-      </div>
-
       <Footer/>
     </div>
   );

@@ -32,6 +32,9 @@ $dark-blue:                     #56538b;
 $mostly-desaturated-dark-cyan:  #53888b;
 $mostly-desaturated-violet:     #56538b;
 
+// Primary Picture Highlight Color
+$vivid-red:                      #e91e43;
+
 
 //==========================================================================
 // Grays
@@ -41,6 +44,7 @@ $white:                         #FFFFFF;
 $gray:                          #BBBBBB;
 $light-gray:                    #f4f4f4;
 $very-light-gray:               #e4e4e4;
+
 $very-dark-gray:                #333333;
 $black-alpha:                   rgba(0, 0, 0, 0.5);
 $black:                         #000000;
@@ -50,15 +54,17 @@ $black:                         #000000;
 // ==========================================================================
 
 // Fonts
-$font-color:                    $dark-blue;
-$font-color-inverse:            $light-gray;
+$font-color:                    $light-gray;
+$font-color-inverse:            $very-light-gray;
+$font-color-highlight:          $light-grayish-orange;
+$font-color-bkgd:               $mostly-desaturated-dark-blue;
 $heading-font-color:            $very-dark-cyan;
 
 // Backgrounds
 $background-color:              $light-gray;
 $header-background:             $very-dark-gray;
 $footer-background:             $very-dark-gray;
-$overlay-background:            $greenish-cyan-alpha;
+$overlay-background:            $steel-gray;
 
 // Highlight
 $highlight-color:               $greenish-cyan;
@@ -66,7 +72,7 @@ $highlight-color:               $greenish-cyan;
 // Borders and Dividers
 $divider-color:                 $gray;
 $border-color:                  $black-alpha;
-$highlight-border:              $greenish-cyan;
+$highlight-border:              $gray;
 
 $border-style:                  10px solid $highlight-border;
 
@@ -118,6 +124,15 @@ $medium-breakpoint:             760px;
 
 $base-font-size:                14px;
 $font:                          'Roboto Slab', serif;
+$font-sans:                     'Source Sans Pro', sans-serif;
 $heading-font:                   Montserrat;
 $button-font:                   'Roboto Slab', serif;
 $icon-font:                     'Material Icons';
+
+// ==========================================================================
+// Calcs
+// ==========================================================================
+
+$header-height:                 64px;
+$footer-height:                 200px;
+$content-height:                calc(100vh - $header-height - 1px - $footer-height);

@@ -71,6 +71,7 @@ body {
         }
     }
     &__pic-container {
+        position: relative;
         flex-grow: 1;
         width: 50%;
         height: $content-height;
@@ -81,6 +82,12 @@ body {
         object-fit: cover;
         box-sizing: border-box;
         box-shadow: 0 0 1px 1px $border-color;
+    }
+    &__pic-atr {
+        position: absolute;
+        right: 9px;
+        bottom: 0;
+        font-size: 0.8em;
     }
 }
 

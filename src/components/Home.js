@@ -14,7 +14,7 @@ export default function Home(){
             </main>
             <div className="j-home__pic-container">
                 <img className="j-home__pic" src={process.env.PUBLIC_URL + '/images/portraits/photo-9.jpg'}  alt="Jana standing in a red dress with city in the background" />
-                <div className="j-home__pic-atr">Photo by <a className="j-button--plain" href="https://stepniowski.com/" target="_blank">Marek Stepnioski</a></div>
+                <div className="j-home__pic-atr">Photo by <a className="j-button--plain" href="https://stepniowski.com/" target="_blank">Marek Stepniowski</a></div> 
             </div>
 
       </div>

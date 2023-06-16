@@ -1,11 +1,11 @@
+import Post from './Post';
+
+
 export default function Blog(){
     return (
-        <header className="j-header">
-            <div>
-                Jana Veliskova
-            </div>
-
-            
-        </header>
+        <div>
+            This is the blog section
+            <Post/>
+        </div>
     )
 }

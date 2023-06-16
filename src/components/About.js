@@ -10,13 +10,15 @@ export default function About(){
             <div className="j-home__desc">
                 <ul className="j-home__experiences">
                     <li className="j-home__experience-item">
-                        About This Site
+                        <h2>
+                            About This Site
+                        </h2>
                     </li>
                     <li className="j-home__experience-item">
-                        This site uses a color theme from <a href="https://www.colourlovers.com/palette/2413183/City_of_God">Colour Lovers: City of God</a>
+                        This site uses a color theme from <a target="_blank" href="https://www.colourlovers.com/palette/2413183/City_of_God">Colour Lovers: City of God</a>
                     </li>
                     <li className="j-home__experience-item">
-                        There's nothing uncessary here. No unwanted dependencies. No bloated CSS libraries. HTLM isn't div soup. The React is neat.
+                        This site uses icons from <a target="_blank" href="https://www.colourlovers.com/palette/2413183/City_of_God">Hero Icons</a> and Material UI
                     </li>
                 </ul>
             </div>

@@ -16,11 +16,6 @@ import Blog from './components/Blog';
 import Portfolio from './components/Portfolio';
 
 
-// GA
-import ReactGA from 'react-ga';
-const TRACKING_ID = "G-FV169DQDW3";
-ReactGA.initialize(TRACKING_ID);
-
 function App() {
 
   useEffect(() => {

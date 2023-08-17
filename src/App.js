@@ -14,6 +14,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Blog from './components/Blog';
 import Portfolio from './components/Portfolio';
+import Coaching from './components/Coaching';
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route  path="/about" element={<About />} />
           <Route path="/blog" element={<Blog />} />
+          <Route  path="/coaching" element={<Coaching />} />
           <Route path="/portfolio" element={<Portfolio />} />
 
         </Routes>

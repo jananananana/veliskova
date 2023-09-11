@@ -25,8 +25,6 @@ export default function About(){
                         <div>
                             Jana holds a BA in History from <a href="https://www.cornell.edu/search/people.cfm?netid=jv99">Cornell University</a>.
                         </div>
-
-
                     </li>
                 </ul>
             </div>

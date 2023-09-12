@@ -1,14 +1,14 @@
 {
     "1": {
-        "logo": "/portfolio",
-        "text": "J.P.Morgan",
+        "logo": "/portfolio/clients/jpmorgan.svg",
+        "text": "SUPHOMUES",
         "sub": "Global Technology Infrastructure (GTI)",
         "image": "/coaching",
         "description": "Worked in a product and user experience (UX) capacity at the ",
         "type": ""
     },
     "2": {
-      "text": "About",
+      "text": "HEYA",
       "href": "/about"
     },
     "3": {

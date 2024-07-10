@@ -1,22 +1,36 @@
 {
     "1": {
-        "logo": "/portfolio",
+        "logo": "/portfolio/clients/jpmorgan.svg",
         "text": "J.P.Morgan",
         "sub": "Global Technology Infrastructure (GTI)",
         "image": "/coaching",
         "description": "Worked in a product and user experience (UX) capacity at the ",
-        "type": ""
+        "type": "work"
     },
     "2": {
-      "text": "About",
-      "href": "/about"
+      "text": "Philly Tech Week",
+      "href": "http://2016.phillytechweek.com/people/JanaVeliskova",
+      "type": "speaking"
     },
     "3": {
-      "text": "Blog",
-      "href": "/blog"
+      "text": "PANMA",
+      "href": "https://www.youtube.com/watch?v=B313rksacic&t=6501s",
+      "description": "Worked in a product and user experience (UX) capacity at the ",
+      "type": "speaking"
     },
     "4": {
-      "text": "Portfolio",
-      "href": "/portfolio"
-    }
+      "text": "UX Camp, DC",
+      "href": "",
+      "type": "speaking"
+    },
+    "5": {
+        "text": "Women in Tech Summit",
+        "href": "",
+        "type": "speaking"
+      },
+    "6": {
+        "text": "Women in Tech Summit",
+        "href": "",
+        "type": "work"
+      }
   }

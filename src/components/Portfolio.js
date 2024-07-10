@@ -12,19 +12,21 @@ export default function Portfolio(){
     const portfoliopass = '8af306bb69bb8d6420ce1f744deb8f62a159cec1fc1028398c3cd74f28e3488591bdd00e1190f0e977d249c4e3f27a854c1cc72cd8dea52846e625c75318073e';
     const [shouldLoadComponent, setShouldLoadComponent] = useState(true);
     const [data, setData] = useState([]);
-    const [speakingData, setSpeakingData] = useState([]);
+
     const [activeIndex, setActiveIndex] = useState(null);
+
+
+    const toggleClass = (index) => {
+        setActiveIndex(index);
+        };
 
     useEffect(() => {
         const portfolioDataArr = Object.values(portfolioData);
-        const speakingDataArr = Object.values(speakingData);
         setData(portfolioDataArr);
-        setSpeakingData(speakingDataArr);
-
-      }, []);
+        }, []);
 
     return (
-        <main className="j-home">
+        <main className="j-home j-portfolio">
             {/* <div className="j-home__pass-area">
                 <label className="j-home__label" htmlFor="pass-input">Enter Password to View This Area</label>
                 <input className="j-home__input" id= "pass-input" type="text" />
@@ -36,38 +38,41 @@ export default function Portfolio(){
                 </div>
             </div> */}
             <div>
-            <div className="portfolio-container">
+                <div className="portfolio-container">
+                    {/* Work Samples Section */}
+                    <section className="j-work-samples-section">
+                            <ul>
+                                {data.map((item, index) => (
+                                    <li className='j-sample' key={index}>
+                                        <span className='j-button--plain-inverse'>{item.text}</span>
+                                    </li>
+                                ))}
+                            </ul>
+                    </section>
 
-      {/* Clients Section */}
-–
+                    {/* Speaking Engagements Section */}
+                    <section className="j-portfolio__item">
+                        
 
-      {/* Work Samples Section */}
-      <section className="j-work-samples-section">
-            <ul>
-                {data.map((item, index) => (
-                    <li className='j-sample' key={index}>
-                        <span className='j-button--plain-inverse'>{item.text}</span>
-                    </li>
-                ))}
-            </ul>
-      </section>
-
-      {/* Speaking Engagements Section */}
-      <section className="speaking-engagements-section">
-        <h2>Speaking Engagements</h2>
-        <ul>
-            {speakingData.map((item, index) => (
-                <li
-                    key={index}
-                    className={index === activeIndex ? 'active' : ''}
-                    onClick={() => toggleClass(index)}
-                >
-                    {item}
-                </li>
-            ))}
-        </ul>
-      </section>
-    </div>
+                        {data.map((item, index) => (
+                            <>
+                            <h2>Product and Design Work</h2>
+                            <ul>
+                                {item.type === "work" && (
+                                    <li>{item.text} speakingh</li>
+                                    )}
+                            </ul>
+                            <h2>Speaking Engagements</h2>
+                            <ul>
+                                {item.type === "speaking" && (
+                                    <li>{item.text} work</li>
+                                    )}
+                            </ul>
+                            </>
+                            
+                        ))}
+                    </section>
+                </div>
 
             </div>
         </main>

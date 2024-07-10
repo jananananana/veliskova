@@ -18,7 +18,7 @@ $very-soft-yellow:              #e5de8a;
 $dark-cyan-alpha:               rgba(21, 61, 57, 0.3);
 
 //
-// NEW THEME - PRIMARY CITY OF GOD
+// NEW THEME
 //
 $mostly-desaturated-dark-blue:  #536C8B;
 $steel-gray:                    #858DA0;
@@ -26,6 +26,7 @@ $chocolate-brown:               #705B4A;
 $beige:                         #B8AB89;
 $light-grayish-orange:          #F1DBC4;
 $greenish-cyan:                 #7FC7AF;
+$very-soft-yellow:              #fff79e;
 
 
 $dark-blue:                     #56538b;
@@ -54,17 +55,17 @@ $black:                         #000000;
 // ==========================================================================
 
 // Fonts
-$font-color:                    $light-gray;
+$font-color:                    $very-dark-gray;
 $font-color-inverse:            $very-light-gray;
-$font-color-highlight:          $light-grayish-orange;
-$font-color-bkgd:               $mostly-desaturated-dark-blue;
+$font-color-highlight:          $dark-blue;
+$font-color-bkgd:               $very-soft-yellow;
 $heading-font-color:            $very-dark-cyan;
 
 // Backgrounds
 $background-color:              $light-gray;
 $header-background:             $very-dark-gray;
 $footer-background:             $very-dark-gray;
-$overlay-background:            $steel-gray;
+$overlay-background:            $white;
 
 // Highlight
 $highlight-color:               $greenish-cyan;

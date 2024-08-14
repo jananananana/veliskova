@@ -1,7 +1,7 @@
 {
   "1": {
-    "text": "Coaching",
-    "href": "/coaching"
+    "text": "Portfolio",
+    "href": "/portfolio"
   },
   "2": {
     "text": "About",
@@ -12,7 +12,7 @@
     "href": "/blog"
   },
   "4": {
-    "text": "Portfolio",
-    "href": "/portfolio"
+    "text": "Contact",
+    "href": "/contact"
   }
 }

@@ -8,10 +8,13 @@ export default function Header(){
         <header className='top-header'>
            <div className='top-header__container'>
 
-                <h1 className="top-header__left b-heading--1">
-                    <Link to={'/'} className='j-button--plain-inverse'> Hi! I'm <span className='b-heading--1__highlight'>Jana</span></Link>
+                <h2 className='top-header__left b-heading b-heading--3'>
+                    <Link to={'/'} className='j-button--plain-inverse'> 
+                        Jana 
+                        <span className='b-heading__highlight'> Veliskova</span>
+                    </Link>
                 
-                </h1>
+                </h2>
 
                 <Navbar/>
            </div>

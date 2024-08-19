@@ -22,7 +22,7 @@ function App() {
   useEffect(() => {
     WebFont.load({
       google: {
-        families: ['Pacifico', 'Montserrat', 'Roboto Slab', 'Roboto', 'Source Sans Pro', 'Material Icons'],
+        families: ['Pacifico', 'Montserrat', 'Roboto Slab', 'Roboto', 'Source Sans Pro', 'Material Icons', 'Orbitron'],
       },
     });
   }, []);

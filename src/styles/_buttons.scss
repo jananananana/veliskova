@@ -62,10 +62,10 @@
 .j-button {
     position: relative;
     display: inline-block;
-    padding: 10px 40px;
+    box-sizing: border-box;
+    padding: 0.5em 1em;
     border: 0;
-    border-bottom: 5px solid $main-button-color-border;
-    border-radius: 10px;
+    border-radius: 1em;
     color: $main-button-font-color;
     cursor: pointer;
     font-family: $button-font;
@@ -85,7 +85,6 @@
     }
     &:active {
         transform: translate(0,5px);
-        border-bottom: 1px solid $main-button-border-hover;
     }
     &[disabled]:disabled {
         padding: 10px 18px;

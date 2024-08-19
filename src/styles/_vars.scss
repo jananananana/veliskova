@@ -15,6 +15,7 @@ $slighty-desaturated-violet:    #9480b8;
 $moderate-orange:               #d56e44;
 $moderate-yellow:               #d5b744;
 $very-soft-yellow:              #e5de8a;
+$cute-pink:                     #F66D83;
 $dark-cyan-alpha:               rgba(21, 61, 57, 0.3);
 
 //
@@ -82,7 +83,7 @@ $box-shadow-style-top:          0 1px 4px 0 $border-color;
 $box-shadow-style-bottom:       0 -1px 4px 0 $border-color;
 
 // Buttons
-$main-button-color:             $mostly-desaturated-dark-blue;
+$main-button-color:             $cute-pink;
 $main-button-hover:             $dark-blue;
 $main-button-font-color:        $light-gray;
 $main-button-color-border:      $mostly-desaturated-violet;
@@ -126,7 +127,8 @@ $medium-breakpoint:             760px;
 $base-font-size:                14px;
 $font:                          'Roboto Slab', serif;
 $font-sans:                     'Source Sans Pro', sans-serif;
-$heading-font:                   Montserrat;
+//$heading-font:                   Montserrat;
+$heading-font:                   Orbitron;
 $button-font:                   'Roboto Slab', serif;
 $icon-font:                     'Material Icons';
 
@@ -134,7 +136,7 @@ $icon-font:                     'Material Icons';
 // Widths
 // ==========================================================================
 $content-width:                 1280px;
-$content-width-tablet:                980px;
+$content-width-tablet:          980px;
 
 // ==========================================================================
 // Calcs

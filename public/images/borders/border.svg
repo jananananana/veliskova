@@ -1,3 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg">
-    <circle cx="50%" cy="50%" r="49%" fill="transparent" stroke="#F66D83" stroke-width="4px" stroke-dasharray="16 2 2 2" />
+<svg xmlns="http://www.w3.org/2000/svg" >
+    <circle cx="50%" cy="50%" r="49%" 
+        fill="transparent" 
+        stroke="#F66D83" 
+        stroke-width="3px" 
+        stroke-dasharray="42 19 18 5 18 19"
+    />
 </svg>

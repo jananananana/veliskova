@@ -8,7 +8,7 @@ const BorderedImage = styled.div`
 export default function Mainbio(){
     
     return (
-        <div className="j-home__mainbio">
+        <BorderedImage imgUrl={process.env.PUBLIC_URL + '/images/borders/lines.svg'}  className="j-home__mainbio">
             <div className="j-home__container">
                 <p className="j-home__title">
                     Hello! I'm
@@ -30,9 +30,11 @@ export default function Mainbio(){
                     </BorderedImage>
                 </div>
                 <div className="j-home__social">
-                    Follow me on:
+                    <p className="j-home__social-inner">
+                        Follow me on:
+                    </p>
                 </div>
             </div>
-      </div>
+      </BorderedImage>
     )
 }

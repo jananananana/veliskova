@@ -9,7 +9,7 @@ export default function Mainbio(){
     
     return (
         <BorderedImage imgUrl={process.env.PUBLIC_URL + '/images/borders/lines.svg'}  className="j-home__mainbio">
-            <div className="j-home__container">
+            <div className="j-home__container j-home__mainbio--container">
                 <p className="j-home__title">
                     Hello! I'm
                 </p>
@@ -32,6 +32,9 @@ export default function Mainbio(){
                 <div className="j-home__social">
                     <p className="j-home__social-inner">
                         Follow me on:
+                        <span>LinkedIn</span>
+                        <p>Instagram</p>
+                        <p>Strava</p>
                     </p>
                 </div>
             </div>

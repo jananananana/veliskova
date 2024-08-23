@@ -1,11 +1,11 @@
 import React from "react";
 
-export default function Skills(){
+export default function Servicess(){
     
     return (
         <div className="j-home__container">
             <div className="j-home__skills">
-                <h2 className="j-skills__heading b-heading b-heading--2">Skills</h2>
+                <h2 className="j-skills__heading b-heading b-heading--2">Services</h2>
                 <div className="j-skills__subtitle" role="doc-subtitle">
                     I have a strong background in front-end development, User Experience research, and product management.
                     My industry experience is predominantly in financial services and many of my projects have strong Know Your Customer (KYC) components.

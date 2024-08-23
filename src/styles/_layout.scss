@@ -9,7 +9,7 @@
 body {
     @include font-smoothing;
     background-color: $background-color;
-    color: $font-color;
+
     font-family: $font-sans;
     font-size: $base-font-size;
 }
@@ -30,27 +30,32 @@ body {
 
 .j-home {
     background-color: $overlay-background;
-    @media (min-width: #{$large-breakpoint}) {
-    }
-    &__mainbio {
-        background-color: $header-background;
-        background-size: 64px;
-    }
+    color: $font-color;
+
     &__container {
-        display: grid;
-        grid-template-columns: [line1] auto [line2] auto [line3] auto [line4] 40px [line5] 40px [line6] auto [line7] 40px [line8];
-        grid-template-rows: [row1] 50px [row2] 50px [row3] auto [row4] auto [row5]auto [row6] auto [row7] 50px [row8] 50px [row-end];
-        column-gap: 10px;
-        row-gap: 20px;
         
         margin: 0 auto;
         width: $content-width-tablet;
         
-        color: $font-color-inverse;
         @media (min-width: #{$large-breakpoint}) {
             width: $content-width;
         }
 
+    }
+
+    &__mainbio {
+        background-color: $header-background;
+        background-size: 64px;
+
+        color: $font-color-inverse;
+
+        &--container {
+            display: grid;
+            grid-template-columns: [line1] auto [line2] auto [line3] auto [line4] 40px [line5] 40px [line6] auto [line7] 40px [line8];
+            grid-template-rows: [row1] 50px [row2] 50px [row3] auto [row4] auto [row5]auto [row6] auto [row7] 50px [row8] 50px [row-end];
+            column-gap: 10px;
+            row-gap: 20px;
+        }
     }
     &__title {
         grid-area: row3 / line1 / row4 / line3;
@@ -106,7 +111,11 @@ body {
         right: 0;
         transform-origin: 27px 31px;
         transform: rotate(90deg);
+        color: $heading-font-color-inverse;
 
+    }
+    &__social-icons {
+        display: inline-block;
     }
 
 // ------------------------------------------
@@ -119,13 +128,8 @@ body {
         column-gap: 10px;
         row-gap: 20px;
         
-        margin: 0 auto;
-        width: $content-width-tablet;
-        
-        color: $font-color-inverse;
-        @media (min-width: #{$large-breakpoint}) {
-            width: $content-width;
-        }
+
+
 
     }
 }

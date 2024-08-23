@@ -9,12 +9,13 @@
         font-weight: 800;
     }
     &--1 {
-        font-size: 4em;
+        font-size: 7em;
     }
     &--2 {
-        font-size: 3em;
+        font-size: 5em;
+        color: $heading-font-color;
     }
     &--3 {
-        font-size: 2em;
+        font-size: 3em;
     }
 }

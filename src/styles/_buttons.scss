@@ -1,5 +1,6 @@
 // Buttons
 %j-button--plain {
+    position: relative;
     display: inline;
     padding: 0;
     border: none;
@@ -12,6 +13,13 @@
     box-shadow: none;
     outline: none;
     transition: all 0.1s;
+    &:after {
+        content: "";
+        position: absolute;
+        bottom: -4px;
+        left: -10%;
+        width: 120%;
+    }
     &:focus,
     &:hover,
     &:active {
@@ -19,7 +27,9 @@
         box-shadow: none;
     }
     &:hover {
-        color: $plain-button-hover;
+        &:after {
+            border-bottom: 3px solid $font-color;
+        }
     }
     &:active {
         color: $plain-button-active;
@@ -39,11 +49,13 @@
     color: $main-button-font-color;
     &:hover,
     &:focus {
-        border-bottom-color: $main-button-border-hover;
+        &:after {
+            border-bottom-color: $main-button-border-hover;
+        }
     }
     &:active {
         //transform: translate(0,5px);
-        border-bottom: 1px solid $main-button-border-hover;
+        border-bottom: $main-button-border-hover;
     }
 }
 

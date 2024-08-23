@@ -22,7 +22,7 @@ function App() {
   useEffect(() => {
     WebFont.load({
       google: {
-        families: ['Pacifico', 'Montserrat', 'Roboto Slab', 'Roboto', 'Source Sans Pro', 'Material Icons', 'Orbitron'],
+        families: ['Pacifico', 'Montserrat', 'Roboto Slab', 'Roboto', 'Source Sans Pro', 'Material Icons', 'Orbitron', 'Sacramento'],
       },
     });
   }, []);
@@ -38,7 +38,6 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route  path="/coaching" element={<Coaching />} />
           <Route path="/portfolio" element={<Portfolio />} />
-
         </Routes>
       </BrowserRouter>
       <Footer/>

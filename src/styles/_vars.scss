@@ -28,6 +28,7 @@ $light-grayish-orange:          #F1DBC4;
 $greenish-cyan:                 #7FC7AF;
 $very-soft-yellow:              #fff79e;
 $cute-pink:                     #F66D83;
+$dark-cute-pink:                #D23A53;
 
 
 $dark-blue:                     #56538b;
@@ -60,7 +61,8 @@ $font-color:                    $very-dark-gray;
 $font-color-inverse:            $very-light-gray;
 $font-color-highlight:          $dark-blue;
 $font-color-bkgd:               $very-soft-yellow;
-$heading-font-color:            $very-dark-cyan;
+$heading-font-color:            $dark-cute-pink;
+$heading-font-color-inverse:    $cute-pink;
 
 // Backgrounds
 $background-color:              $light-gray;
@@ -129,7 +131,8 @@ $base-font-size:                14px;
 $font:                          'Roboto Slab', serif;
 $font-sans:                     'Source Sans Pro', sans-serif;
 //$heading-font:                   Montserrat;
-$heading-font:                   Orbitron;
+//$heading-font:                   Orbitron;
+$heading-font:                  'Sacramento';
 $button-font:                   'Roboto Slab', serif;
 $icon-font:                     'Material Icons';
 

@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import WebFont from 'webfontloader';
 
+
+
+
 // import logo from './logo.svg';
 //  npm run deploy  in gh-pages
 import './App.scss';
@@ -15,6 +18,11 @@ import About from './components/About';
 import Blog from './components/Blog';
 import Portfolio from './components/Portfolio';
 import Coaching from './components/Coaching';
+
+// Icons
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faFacebook, faGithub, faTwitter, faStrava } from '@fortawesome/free-brands-svg-icons';
+library.add( faFacebook, faGithub, faTwitter, faStrava);
 
 
 function App() {

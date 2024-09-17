@@ -1,5 +1,6 @@
 import React from "react";
 import styled from 'styled-components';
+import Icons from './assets/Icons';
 
 const BorderedImage = styled.div`
     background-image: url(${(props)=>props.imgUrl});
@@ -30,12 +31,13 @@ export default function Mainbio(){
                     </BorderedImage>
                 </div>
                 <div className="j-home__social">
-                    <p className="j-home__social-inner">
+                    <aside className="j-home__social-inner">
                         Follow me on:
-                        <span>LinkedIn</span>
-                        <p>Instagram</p>
-                        <p>Strava</p>
-                    </p>
+                        <Icons socialType="linkedin"/>
+                        <span>GitHub</span>
+                        <span>Instagram</span>
+                        <span>Strava</span>
+                    </aside>
                 </div>
             </div>
       </BorderedImage>

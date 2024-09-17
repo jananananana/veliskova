@@ -106,11 +106,8 @@ body {
         position: relative;
     }
     &__social-inner {
-        position: absolute;
-        top: 0;
-        right: 0;
-        transform-origin: 27px 31px;
-        transform: rotate(90deg);
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
         color: $heading-font-color-inverse;
 
     }

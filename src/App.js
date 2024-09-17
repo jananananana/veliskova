@@ -21,8 +21,8 @@ import Coaching from './components/Coaching';
 
 // Icons
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faFacebook, faGithub, faTwitter, faStrava } from '@fortawesome/free-brands-svg-icons';
-library.add( faFacebook, faGithub, faTwitter, faStrava);
+import { faFacebook, faLinkedin, faGithub, faTwitter, faInstagram, faStrava } from '@fortawesome/free-brands-svg-icons';
+library.add( faFacebook, faLinkedin, faGithub, faTwitter, faInstagram, faStrava);
 
 
 function App() {

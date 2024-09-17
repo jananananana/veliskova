@@ -34,9 +34,8 @@ export default function Mainbio(){
                     <aside className="j-home__social-inner">
                         Follow me on:
                         <Icons socialType="linkedin"/>
-                        <span>GitHub</span>
-                        <span>Instagram</span>
-                        <span>Strava</span>
+                        <Icons socialType="strava"/>
+                        <Icons socialType="github"/>
                     </aside>
                 </div>
             </div>

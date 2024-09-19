@@ -32,10 +32,11 @@ export default function Mainbio(){
                 </div>
                 <div className="j-home__social">
                     <aside className="j-home__social-inner">
-                        Follow me on:
+                        <span className="j-home__social-inner-text">Follow me on:</span>
                         <Icons socialType="linkedin"/>
-                        <Icons socialType="strava"/>
                         <Icons socialType="github"/>
+                        <Icons socialType="instagram"/>
+                        <Icons socialType="strava"/>
                     </aside>
                 </div>
             </div>

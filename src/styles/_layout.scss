@@ -23,21 +23,28 @@ body {
     display: block;
 }
 
-.j-table {
-    display: table;
-    margin: 0 auto;
-}
-
 .j-home {
     background-color: $overlay-background;
     color: $font-color;
+    font-size: 0.7em;
+
+    @include for-tablet-portrait-up {
+        font-size: 0.8em;
+    }
+    @include for-tablet-landscape-up {
+        font-size: 0.9em;
+    }
+    @include for-desktop-up {
+        font-size: 1em;
+    }
+
 
     &__container {
         
         margin: 0 auto;
         width: $content-width-tablet;
         
-        @media (min-width: #{$large-breakpoint}) {
+        @include for-desktop-up {
             width: $content-width;
         }
 
@@ -46,32 +53,76 @@ body {
     &__mainbio {
         background-color: $header-background;
         background-size: 64px;
-
         color: $font-color-inverse;
 
         &--container {
+            padding: 50px 0;
             display: grid;
-            grid-template-columns: [line1] auto [line2] auto [line3] auto [line4] 40px [line5] 40px [line6] auto [line7] 40px [line8];
-            grid-template-rows: [row1] 50px [row2] 50px [row3] auto [row4] auto [row5]auto [row6] auto [row7] 50px [row8] 50px [row-end];
-            column-gap: 10px;
-            row-gap: 20px;
+
+            grid-template-columns: [line1] 3fr [line2] 5fr [line3] 40% [line4] 2em [line-end];
+            grid-template-rows: [row1] auto [row2] auto [row3] auto [row4] auto [row-end];
+            column-gap: 20px;
+            row-gap: 30px;
+            grid-template-areas:
+            "greeting . picture social"
+            "heading heading picture social"
+            "words words picture social"
+            "contact . picture social"
+            ;
+            
+            
+            @include for-tablet-portrait-up {
+                font-size: 0.8em;
+            }
+            @include for-tablet-landscape-up {
+                font-size: 0.9em;
+                padding: 30px 0;
+    
+                grid-template-columns: [line1] 3fr [line2] 5fr [line3] 40% [line-end];
+                grid-template-rows: [row1] auto [row2] auto [row3] auto [row4] auto [row-end];
+                column-gap: 20px;
+                row-gap: 30px;
+                grid-template-areas:
+                "greeting . picture "
+                "heading heading picture "
+                "words words picture "
+                "contact . social"
+                ;
+            }
+            @include for-desktop-up {
+                font-size: 1em;
+                padding: 50px 0;
+    
+                grid-template-columns: [line1] 3fr [line2] 5fr [line3] 40% [line4] 2em [line-end];
+                grid-template-rows: [row1] auto [row2] auto [row3] auto [row4] auto [row-end];
+                column-gap: 20px;
+                row-gap: 30px;
+                grid-template-areas:
+                "greeting . picture social"
+                "heading heading picture social"
+                "words words picture social"
+                "contact . picture social"
+                ;
+            }
         }
     }
     &__title {
-        grid-area: row3 / line1 / row4 / line3;
+        grid-area: greeting;
         font-size: 2em;
     }
     &__heading {
-        grid-area: row4 / line1 / row5 / line3;
-        padding: 0.1em 0;
+        grid-area: heading;
         text-shadow: 0 -2px $cute-pink;
         font-weight: 200;
     }
     &__contact {
-        grid-area: row6 / line1 / row7 / line2;
+        grid-area: contact;
+        padding: 0.5em 1.5em;
+        width: fit-content;
+        height: fit-content;
     }
     &__experiences {
-        grid-area: row5 / line1 / row6 / line5; 
+        grid-area: words; 
         justify-self: stretch;
         font-size: 2em;
         
@@ -80,7 +131,7 @@ body {
         line-height: 1.5;
     }
     &__pic-container {
-        grid-area: row2 / line6 / row8 / line7;
+        grid-area: picture;
         font-size: 2em;
     }
     &__pic-border {
@@ -102,18 +153,52 @@ body {
         font-size: 0.8em;
     }
     &__social {
-        grid-area: row2 / line4 / row3 / line8;
+        grid-area: social;
         position: relative;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        font-size: 1.2em;
+        font-size: clamp(0.8em, 3vw, 1.2em);
+
+
+        .j-button--plain {
+            color: inherit;
+            &:hover,
+            &:focus {
+                color: $font-color-inverse; 
+            }
+            &:active {
+                color: $font-color-inverse;
+            }
+        }
+        .svg-inline--fa {
+            height: 1.8em;
+        }
     }
+
     &__social-inner {
-        writing-mode: vertical-rl;
-        text-orientation: mixed;
+        display: flex;
+        align-items: center;
         color: $heading-font-color-inverse;
+        @include for-desktop-up {
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+
+            align-items: baseline;
+            
+        }
 
     }
-    &__social-icons {
-        display: inline-block;
+    &__social-inner-text {
+        padding-right: 1em;
+        @include for-desktop-up {
+            padding-bottom: 10px;
+        }
+
     }
+
 
 // ------------------------------------------
 //  SKILLS

@@ -13,7 +13,10 @@ export default function Icons(props){
 
             case "github":
                 urllink = "https://github.com/jananananana/";
-        
+            
+            case "instagram":
+                urllink = "https://www.instagram.com/mouflonlove/";
+     
             default:
                 break;
         }
@@ -21,7 +24,7 @@ export default function Icons(props){
         return (
             <span className={'j-icon j-icon__'+ socialType}>
                 {
-                    <a className='j-button--plain j-button--plain-inverse' href={urllink}>
+                    <a className='j-button--plain' href={urllink}>
                         <FontAwesomeIcon icon={'fa-brands fa-'+ socialType} />
                     </a>
                 }

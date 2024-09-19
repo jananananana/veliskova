@@ -42,6 +42,15 @@
 }
 .j-button--plain {
     @extend %j-button--plain;
+    &:hover,
+    &:focus {
+        &:after {
+            border-bottom-color: $main-button-border-hover;
+        }
+    }
+    &:active {
+        border-bottom: $main-button-border-hover;
+    }
 }
 
 .j-button--plain-inverse {
@@ -54,7 +63,6 @@
         }
     }
     &:active {
-        //transform: translate(0,5px);
         border-bottom: $main-button-border-hover;
     }
 }

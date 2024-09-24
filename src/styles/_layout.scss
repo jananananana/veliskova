@@ -39,15 +39,18 @@ body {
     }
 
 
-    &__container {
-        
+    &__container {    
         margin: 0 auto;
-        width: $content-width-tablet;
-        
+        padding: 3em 0;
+        @include for-phone-only {
+            padding: 2em;
+        }
+        @include for-tablet-landscape-up {
+
+        }
         @include for-desktop-up {
             width: $content-width;
         }
-
     }
 
     &__mainbio {
@@ -56,28 +59,25 @@ body {
         color: $font-color-inverse;
 
         &--container {
-            padding: 50px 0;
             display: grid;
 
-            grid-template-columns: [line1] 3fr [line2] 5fr [line3] 40% [line4] 2em [line-end];
-            grid-template-rows: [row1] auto [row2] auto [row3] auto [row4] auto [row-end];
+            grid-template-columns: [line1] 1fr [line2];
+            grid-template-rows: auto;
             column-gap: 20px;
             row-gap: 30px;
             grid-template-areas:
-            "greeting . picture social"
-            "heading heading picture social"
-            "words words picture social"
-            "contact . picture social"
+            "greeting"
+            "heading"
+            "picture"
+            "words"
+            "contact"
+            "social"
             ;
             
             
             @include for-tablet-portrait-up {
                 font-size: 0.8em;
-            }
-            @include for-tablet-landscape-up {
-                font-size: 0.9em;
-                padding: 30px 0;
-    
+                padding: 10px 30px;
                 grid-template-columns: [line1] 3fr [line2] 5fr [line3] 40% [line-end];
                 grid-template-rows: [row1] auto [row2] auto [row3] auto [row4] auto [row-end];
                 column-gap: 20px;
@@ -86,7 +86,21 @@ body {
                 "greeting . picture "
                 "heading heading picture "
                 "words words picture "
-                "contact . social"
+                "contact contact social"
+                ;
+            }
+            @include for-tablet-landscape-up {
+                font-size: 0.9em;
+                padding: 30px 40px;
+                grid-template-columns: [line1] 3fr [line2] 5fr [line3] 40% [line-end];
+                grid-template-rows: [row1] auto [row2] auto [row3] auto [row4] auto [row-end];
+                column-gap: 20px;
+                row-gap: 30px;
+                grid-template-areas:
+                "greeting . picture "
+                "heading heading picture "
+                "words words picture "
+                "contact contact social"
                 ;
             }
             @include for-desktop-up {
@@ -101,7 +115,7 @@ body {
                 "greeting . picture social"
                 "heading heading picture social"
                 "words words picture social"
-                "contact . picture social"
+                "contact contact picture social"
                 ;
             }
         }
@@ -114,12 +128,19 @@ body {
         grid-area: heading;
         text-shadow: 0 -2px $cute-pink;
         font-weight: 200;
+        @include for-phone-only {
+            text-align: center;
+        }
     }
     &__contact {
         grid-area: contact;
         padding: 0.5em 1.5em;
         width: fit-content;
         height: fit-content;
+        @include for-phone-only {
+            margin: 0 auto;
+            width: 100%;
+        }
     }
     &__experiences {
         grid-area: words; 
@@ -133,11 +154,21 @@ body {
     &__pic-container {
         grid-area: picture;
         font-size: 2em;
+        @include for-phone-only {
+            margin: 0 auto;
+        }
     }
     &__pic-border {
         padding: 0.5em;
-
         background-size: cover;
+        @include for-phone-only {
+            height: 15em;
+            width: 15em;
+        }
+        // @include for-tablet-portrait-up {
+        //     height: 20em;
+        //     width: 20em;
+        // }
     }
     &__pic {
         width: 100%;

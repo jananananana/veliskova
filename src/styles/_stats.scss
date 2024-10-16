@@ -1,0 +1,34 @@
+@import 'mixins';
+
+/* Stats  */
+.j-stats {
+    display: grid;
+    grid-template-columns: [col1]250px[col2]2px[col3]250px[col4]2px[col5]250px[colend];
+    gap: 20px;
+    justify-content: center;
+    font-size: 1.5em;
+    @include for-tablet-portrait-up {
+        grid-template-columns: [col1]200px[col2]2px[col3]200px[col4]2px[col5]200px[colend];
+    }
+    @include for-desktop-up {
+        grid-template-columns: [col1]250px[col2]2px[col3]250px[col4]2px[col5]250px[colend];
+    }
+
+    &__item {
+        justify-self: center;
+        align-self: center;
+        padding: 0 30px;
+        text-align: center;
+    }
+}
+    .j-stats__divider {
+        width: 100%;
+        @include for-tablet-portrait-up {
+            height: 100%;
+            border-left: 2px solid $font-color-inverse;
+        }
+
+}
+.j-stats__item:last-child:after {
+    content: none;
+}

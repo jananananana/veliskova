@@ -234,16 +234,17 @@ body {
 // ------------------------------------------
 //  SKILLS
 // ------------------------------------------
-    &__skills {
-        display: grid;
-        grid-template-columns: [line1] auto [line2] auto [line3] auto [line4] 40px [line5] 40px [line6] auto [line7] 40px [line8];
-        grid-template-rows: [row1] 50px [row2] 50px [row3] auto [row4] auto [row5]auto [row6] auto [row7] 50px [row8] 50px [row-end];
-        column-gap: 10px;
-        row-gap: 20px;
-        
 
 
 
+
+// ------------------------------------------
+//  SERVICES
+// ------------------------------------------
+    &__services {
+        padding: 30px 0 100px 0;
+        background-color: $inverse-background-color;
+        color: $font-color-inverse;
     }
 }
 

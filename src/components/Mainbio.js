@@ -16,9 +16,7 @@ export default function Mainbio(){
                 </p>
                 <h1 className="j-home__heading b-heading b-heading--1">Jana Veliskova</h1>
                 <div className="j-home__experiences">
-                    <p className="j-home__experience-item">I'm a data-driven, creative, technical product lead.</p>
-                    <p className="j-home__experience-item">I create delightful user experiences and write clean code.</p>
-                    <p className="j-home__experience-item">I focus on accessible, performant, and secure interfaces.</p>
+                    <p className="j-home__experience-item">I am a web developer, product manager, and UX designer. I'm passionate about creating accessible, performant, and userful digital experience.</p>
                 </div>
                 <button className="j-home__contact j-button">Contact Me</button>
                 <div className="j-home__pic-container">

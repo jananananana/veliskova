@@ -4,20 +4,17 @@ export default function Skills(){
     
     return (
         <div className="j-home__container">
-            <div className="j-home__skills">
+            <div className="j-home__skills j-skills">
                 <h2 className="j-skills__heading b-heading b-heading--2">Skills</h2>
                 <div className="j-skills__subtitle" role="doc-subtitle">
-                    I have a strong background in front-end development, User Experience research, and product management.
-                    My industry experience is predominantly in financial services and many of my projects have strong Know Your Customer (KYC) components.
-                    My passion for accessibility drives my work and I focus on creating effective, secure, delightful, and user-friendly solutions.
+                    I have a strong background in front-end development, user experience, digital accessibility coaching, and product management.
                 </div>
-                {/* soft */}
                 <ul>
                     <li>
                         Technical Product Management
                     </li>
                     <li>
-                        Accessibility
+                        Accessibility Audits
                     </li>
                     <li>
                         UX Research
@@ -25,9 +22,6 @@ export default function Skills(){
                     <li>
                         Design Systems
                     </li>
-                </ul>
-                {/* hard */}
-                <ul>
                     <li>
                         JavaScript
                     </li>
@@ -35,7 +29,7 @@ export default function Skills(){
                         UI Development
                     </li>
                     <li>
-                        React
+                        Workflow Assessments
                     </li>
                     <li>
                         CSS/Sass

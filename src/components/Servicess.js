@@ -3,45 +3,26 @@ import React from "react";
 export default function Servicess(){
     
     return (
-        <div className="j-home__container">
-            <div className="j-home__skills">
-                <h2 className="j-skills__heading b-heading b-heading--2">Services</h2>
-                <div className="j-skills__subtitle" role="doc-subtitle">
-                    I have a strong background in front-end development, User Experience research, and product management.
-                    My industry experience is predominantly in financial services and many of my projects have strong Know Your Customer (KYC) components.
-                    My passion for accessibility drives my work and I focus on creating effective, secure, delightful, and user-friendly solutions.
+        <section className="j-home__services">
+            <div className="j-home__container">
+
+                <div className="j-stats">
+                    <div className="j-stats__item">
+                        <h3 className="b-heading--serif j-stats__heading">2</h3>
+                        <p>delightful little boys raised</p>
+                    </div>
+                    <div className="j-stats__divider"></div>
+                    <div className="j-stats__item">
+                        <h3 className="b-heading--serif j-stats__heading">12+</h3>
+                        <p>years of technology experience</p>
+                    </div>
+                    <div className="j-stats__divider"></div>
+                    <div className="j-stats__item">
+                        <h3 className="b-heading--serif j-stats__heading">16+</h3>
+                        <p>marathons and ultramarathons run </p>
+                    </div>
                 </div>
-                {/* soft */}
-                <ul>
-                    <li>
-                        Technical Product Management
-                    </li>
-                    <li>
-                        Accessibility
-                    </li>
-                    <li>
-                        UX Research
-                    </li>
-                    <li>
-                        Design Systems
-                    </li>
-                </ul>
-                {/* hard */}
-                <ul>
-                    <li>
-                        JavaScript
-                    </li>
-                    <li>
-                        UI Development
-                    </li>
-                    <li>
-                        React
-                    </li>
-                    <li>
-                        CSS/Sass
-                    </li>
-                </ul>
             </div>
-        </div>
+        </section>
     )
 }

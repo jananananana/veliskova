@@ -7,9 +7,7 @@ export default function Clients(){
             <div className="j-home__container">
                 <h2 className="j-skills__heading b-heading b-heading--2">Clients</h2>
                 <div className="j-skills__subtitle" role="doc-subtitle">
-                    I have a strong background in front-end development, User Experience research, and product management.
-                    My industry experience is predominantly in financial services and many of my projects have strong Know Your Customer (KYC) components.
-                    My passion for accessibility drives my work and I focus on creating effective, secure, delightful, and user-friendly solutions.
+                   My range of clients spans from small businesses to large corporations. I have worked with clients in the financial services, e-commerce, and education sectors.
                 </div>
                 {/* soft */}
                 <ul>

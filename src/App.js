@@ -30,7 +30,7 @@ function App() {
   useEffect(() => {
     WebFont.load({
       google: {
-        families: ['Pacifico', 'Montserrat', 'Roboto Slab', 'Roboto', 'Source Sans Pro', 'Material Icons', 'Orbitron', 'Sacramento'],
+        families: ['Roboto Slab', 'Source Sans Pro', 'Material Icons', 'Sacramento', 'Cinzel'],
       },
     });
   }, []);
